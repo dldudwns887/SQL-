@@ -1,3 +1,0 @@
-dag_id: 'GOOG'
-schedule: '@weekly'
-symbol: 'GOOG'
