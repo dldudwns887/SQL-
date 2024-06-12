@@ -1,0 +1,36 @@
+[2024-06-12T07:13:11.955+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: api_to_s3_to_redshift.upload_to_s3 manual__2024-06-12T07:07:51.969986+00:00 [queued]>
+[2024-06-12T07:13:11.976+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: api_to_s3_to_redshift.upload_to_s3 manual__2024-06-12T07:07:51.969986+00:00 [queued]>
+[2024-06-12T07:13:11.977+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-12T07:13:11.977+0000] {taskinstance.py:1280} INFO - Starting attempt 2 of 2
+[2024-06-12T07:13:11.977+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-12T07:13:12.008+0000] {taskinstance.py:1300} INFO - Executing <Task(LocalFilesystemToS3Operator): upload_to_s3> on 2024-06-12 07:07:51.969986+00:00
+[2024-06-12T07:13:12.019+0000] {standard_task_runner.py:55} INFO - Started process 4944 to run task
+[2024-06-12T07:13:12.027+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'api_to_s3_to_redshift', 'upload_to_s3', 'manual__2024-06-12T07:07:51.969986+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/test_redshift_real.py', '--cfg-path', '/tmp/tmpe3lxkuu5']
+[2024-06-12T07:13:12.028+0000] {standard_task_runner.py:83} INFO - Job 6: Subtask upload_to_s3
+[2024-06-12T07:13:12.172+0000] {task_command.py:388} INFO - Running <TaskInstance: api_to_s3_to_redshift.upload_to_s3 manual__2024-06-12T07:07:51.969986+00:00 [running]> on host be394f3a6896
+[2024-06-12T07:13:12.364+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=api_to_s3_to_redshift
+AIRFLOW_CTX_TASK_ID=upload_to_s3
+AIRFLOW_CTX_EXECUTION_DATE=2024-06-12T07:07:51.969986+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-06-12T07:07:51.969986+00:00
+[2024-06-12T07:13:12.391+0000] {base.py:73} INFO - Using connection ID 'aws_s3' for task execution.
+[2024-06-12T07:13:12.392+0000] {connection_wrapper.py:334} INFO - AWS Connection (conn_id='aws_s3', conn_type='aws') credentials retrieved from login and password.
+[2024-06-12T07:13:13.677+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/transfers/local_to_s3.py", line 107, in execute
+    self.acl_policy,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 99, in wrapper
+    return func(*bound_args.args, **bound_args.kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 70, in wrapper
+    return func(*bound_args.args, **bound_args.kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 631, in load_file
+    raise ValueError(f"The key {key} already exists.")
+ValueError: The key dataSource/api_data.csv already exists.
+[2024-06-12T07:13:13.696+0000] {taskinstance.py:1323} INFO - Marking task as FAILED. dag_id=api_to_s3_to_redshift, task_id=upload_to_s3, execution_date=20240612T070751, start_date=20240612T071311, end_date=20240612T071313
+[2024-06-12T07:13:13.726+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 6 for task upload_to_s3 (The key dataSource/api_data.csv already exists.; 4944)
+[2024-06-12T07:13:13.768+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2024-06-12T07:13:13.827+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

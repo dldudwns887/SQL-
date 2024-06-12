@@ -1,0 +1,47 @@
+[2024-06-12T07:05:40.421+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: api_to_s3_to_redshift.fetch_api_data manual__2024-06-12T07:05:34.032934+00:00 [queued]>
+[2024-06-12T07:05:40.448+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: api_to_s3_to_redshift.fetch_api_data manual__2024-06-12T07:05:34.032934+00:00 [queued]>
+[2024-06-12T07:05:40.449+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-12T07:05:40.449+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 2
+[2024-06-12T07:05:40.449+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-12T07:05:40.497+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): fetch_api_data> on 2024-06-12 07:05:34.032934+00:00
+[2024-06-12T07:05:40.508+0000] {standard_task_runner.py:55} INFO - Started process 4141 to run task
+[2024-06-12T07:05:40.514+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'api_to_s3_to_redshift', 'fetch_api_data', 'manual__2024-06-12T07:05:34.032934+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/test_redshift_real.py', '--cfg-path', '/tmp/tmpq1_ci5lf']
+[2024-06-12T07:05:40.515+0000] {standard_task_runner.py:83} INFO - Job 3: Subtask fetch_api_data
+[2024-06-12T07:05:40.700+0000] {task_command.py:388} INFO - Running <TaskInstance: api_to_s3_to_redshift.fetch_api_data manual__2024-06-12T07:05:34.032934+00:00 [running]> on host be394f3a6896
+[2024-06-12T07:05:41.059+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=api_to_s3_to_redshift
+AIRFLOW_CTX_TASK_ID=fetch_api_data
+AIRFLOW_CTX_EXECUTION_DATE=2024-06-12T07:05:34.032934+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-06-12T07:05:34.032934+00:00
+[2024-06-12T07:05:41.463+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/usr/local/lib/python3.7/json/__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/lib/python3.7/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/local/lib/python3.7/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/test_redshift_real.py", line 34, in fetch_api_data
+    data = response.json()
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2024-06-12T07:05:41.496+0000] {taskinstance.py:1323} INFO - Marking task as UP_FOR_RETRY. dag_id=api_to_s3_to_redshift, task_id=fetch_api_data, execution_date=20240612T070534, start_date=20240612T070540, end_date=20240612T070541
+[2024-06-12T07:05:41.526+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 3 for task fetch_api_data (Expecting value: line 1 column 1 (char 0); 4141)
+[2024-06-12T07:05:41.550+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2024-06-12T07:05:41.610+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,50 @@
+[2024-06-12T07:46:59.790+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: api_to_s3_to_redshift.load_to_redshift manual__2024-06-12T07:46:49.867188+00:00 [queued]>
+[2024-06-12T07:46:59.802+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: api_to_s3_to_redshift.load_to_redshift manual__2024-06-12T07:46:49.867188+00:00 [queued]>
+[2024-06-12T07:46:59.802+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-12T07:46:59.802+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 2
+[2024-06-12T07:46:59.802+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-12T07:46:59.823+0000] {taskinstance.py:1300} INFO - Executing <Task(S3ToRedshiftOperator): load_to_redshift> on 2024-06-12 07:46:49.867188+00:00
+[2024-06-12T07:46:59.830+0000] {standard_task_runner.py:55} INFO - Started process 8392 to run task
+[2024-06-12T07:46:59.833+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'api_to_s3_to_redshift', 'load_to_redshift', 'manual__2024-06-12T07:46:49.867188+00:00', '--job-id', '35', '--raw', '--subdir', 'DAGS_FOLDER/test_redshift_real.py', '--cfg-path', '/tmp/tmpz5v9aczi']
+[2024-06-12T07:46:59.834+0000] {standard_task_runner.py:83} INFO - Job 35: Subtask load_to_redshift
+[2024-06-12T07:46:59.909+0000] {task_command.py:388} INFO - Running <TaskInstance: api_to_s3_to_redshift.load_to_redshift manual__2024-06-12T07:46:49.867188+00:00 [running]> on host be394f3a6896
+[2024-06-12T07:47:00.023+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=api_to_s3_to_redshift
+AIRFLOW_CTX_TASK_ID=load_to_redshift
+AIRFLOW_CTX_EXECUTION_DATE=2024-06-12T07:46:49.867188+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-06-12T07:46:49.867188+00:00
+[2024-06-12T07:47:00.047+0000] {base.py:73} INFO - Using connection ID 'aws_s3' for task execution.
+[2024-06-12T07:47:00.064+0000] {base.py:73} INFO - Using connection ID 'aws_s3' for task execution.
+[2024-06-12T07:47:00.067+0000] {connection_wrapper.py:334} INFO - AWS Connection (conn_id='aws_s3', conn_type='aws') credentials retrieved from login and password.
+[2024-06-12T07:47:00.103+0000] {s3_to_redshift.py:164} INFO - Executing COPY command...
+[2024-06-12T07:47:00.116+0000] {base.py:73} INFO - Using connection ID 'redshift_test_dev' for task execution.
+[2024-06-12T07:47:00.674+0000] {sql.py:375} INFO - Running statement: 
+                    COPY yusuyeon678.raw_data_test_youngjun 
+                    FROM 's3://dust-dag/dataSource/api_data.csv'
+                    credentials
+                    'aws_access_key_id=AKIAZQ3DNY2P6X5UNXUG;aws_secret_access_key=***'
+                    csv;
+        , parameters: None
+[2024-06-12T07:47:00.855+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/transfers/s3_to_redshift.py", line 165, in execute
+    redshift_hook.run(sql, autocommit=self.autocommit)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/hooks/sql.py", line 349, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/hooks/sql.py", line 380, in _run_command
+    cur.execute(sql_statement)
+  File "/home/airflow/.local/lib/python3.7/site-packages/redshift_connector/cursor.py", line 240, in execute
+    self._c.execute(self, operation, args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/redshift_connector/core.py", line 1783, in execute
+    self.handle_messages(cursor)
+  File "/home/airflow/.local/lib/python3.7/site-packages/redshift_connector/core.py", line 1969, in handle_messages
+    raise self.error
+redshift_connector.error.ProgrammingError: {'S': 'ERROR', 'C': 'XX000', 'M': "Load into table 'raw_data_test_youngjun' failed.  Check 'stl_load_errors' system table for details.", 'F': '../src/pg/src/backend/commands/commands_copy.c', 'L': '741', 'R': 'CheckMaxRowError'}
+[2024-06-12T07:47:00.869+0000] {taskinstance.py:1323} INFO - Marking task as UP_FOR_RETRY. dag_id=api_to_s3_to_redshift, task_id=load_to_redshift, execution_date=20240612T074649, start_date=20240612T074659, end_date=20240612T074700
+[2024-06-12T07:47:00.895+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 35 for task load_to_redshift ({'S': 'ERROR', 'C': 'XX000', 'M': "Load into table 'raw_data_test_youngjun' failed.  Check 'stl_load_errors' system table for details.", 'F': '../src/pg/src/backend/commands/commands_copy.c', 'L': '741', 'R': 'CheckMaxRowError'}; 8392)
+[2024-06-12T07:47:00.932+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2024-06-12T07:47:00.966+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check
