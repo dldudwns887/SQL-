@@ -1,0 +1,26 @@
+[2024-06-13T04:39:46.540+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: api_to_s3_to_redshift.delete_s3_file manual__2024-06-13T04:38:59.161484+00:00 [queued]>
+[2024-06-13T04:39:46.558+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: api_to_s3_to_redshift.delete_s3_file manual__2024-06-13T04:38:59.161484+00:00 [queued]>
+[2024-06-13T04:39:46.559+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-13T04:39:46.559+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 2
+[2024-06-13T04:39:46.559+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-13T04:39:46.592+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): delete_s3_file> on 2024-06-13 04:38:59.161484+00:00
+[2024-06-13T04:39:46.601+0000] {standard_task_runner.py:55} INFO - Started process 4337 to run task
+[2024-06-13T04:39:46.614+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'api_to_s3_to_redshift', 'delete_s3_file', 'manual__2024-06-13T04:38:59.161484+00:00', '--job-id', '107', '--raw', '--subdir', 'DAGS_FOLDER/test_redshift_real.py', '--cfg-path', '/tmp/tmpv6w08r_4']
+[2024-06-13T04:39:46.615+0000] {standard_task_runner.py:83} INFO - Job 107: Subtask delete_s3_file
+[2024-06-13T04:39:46.687+0000] {task_command.py:388} INFO - Running <TaskInstance: api_to_s3_to_redshift.delete_s3_file manual__2024-06-13T04:38:59.161484+00:00 [running]> on host 51c81313d5fd
+[2024-06-13T04:39:46.960+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=api_to_s3_to_redshift
+AIRFLOW_CTX_TASK_ID=delete_s3_file
+AIRFLOW_CTX_EXECUTION_DATE=2024-06-13T04:38:59.161484+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-06-13T04:38:59.161484+00:00
+[2024-06-13T04:39:46.972+0000] {base.py:73} INFO - Using connection ID 'aws_s3' for task execution.
+[2024-06-13T04:39:46.973+0000] {connection_wrapper.py:334} INFO - AWS Connection (conn_id='aws_s3', conn_type='aws') credentials retrieved from login and password.
+[2024-06-13T04:39:47.684+0000] {s3.py:871} INFO - Deleted: ['dataSource/api_raw_data.csv']
+[2024-06-13T04:39:47.685+0000] {python.py:177} INFO - Done. Returned value was: None
+[2024-06-13T04:39:47.695+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=api_to_s3_to_redshift, task_id=delete_s3_file, execution_date=20240613T043859, start_date=20240613T043946, end_date=20240613T043947
+[2024-06-13T04:39:47.749+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2024-06-13T04:39:47.768+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

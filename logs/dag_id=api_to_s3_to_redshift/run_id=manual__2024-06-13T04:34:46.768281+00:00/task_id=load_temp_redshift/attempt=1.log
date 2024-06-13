@@ -1,0 +1,67 @@
+[2024-06-13T04:34:55.625+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: api_to_s3_to_redshift.load_temp_redshift manual__2024-06-13T04:34:46.768281+00:00 [queued]>
+[2024-06-13T04:34:55.639+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: api_to_s3_to_redshift.load_temp_redshift manual__2024-06-13T04:34:46.768281+00:00 [queued]>
+[2024-06-13T04:34:55.639+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-13T04:34:55.639+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 2
+[2024-06-13T04:34:55.639+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-13T04:34:55.660+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): load_temp_redshift> on 2024-06-13 04:34:46.768281+00:00
+[2024-06-13T04:34:55.667+0000] {standard_task_runner.py:55} INFO - Started process 3726 to run task
+[2024-06-13T04:34:55.670+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'api_to_s3_to_redshift', 'load_temp_redshift', 'manual__2024-06-13T04:34:46.768281+00:00', '--job-id', '101', '--raw', '--subdir', 'DAGS_FOLDER/test_redshift_real.py', '--cfg-path', '/tmp/tmp9ohacwz4']
+[2024-06-13T04:34:55.671+0000] {standard_task_runner.py:83} INFO - Job 101: Subtask load_temp_redshift
+[2024-06-13T04:34:55.745+0000] {task_command.py:388} INFO - Running <TaskInstance: api_to_s3_to_redshift.load_temp_redshift manual__2024-06-13T04:34:46.768281+00:00 [running]> on host 51c81313d5fd
+[2024-06-13T04:34:56.014+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=api_to_s3_to_redshift
+AIRFLOW_CTX_TASK_ID=load_temp_redshift
+AIRFLOW_CTX_EXECUTION_DATE=2024-06-13T04:34:46.768281+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-06-13T04:34:46.768281+00:00
+[2024-06-13T04:34:56.026+0000] {base.py:73} INFO - Using connection ID 'redshift_test_dev' for task execution.
+[2024-06-13T04:34:56.164+0000] {sql.py:375} INFO - Running statement: 
+        COPY yusuyeon678.api_raw_data_temp
+        FROM 's3://dust-dag/dataSource/api_raw_data.csv'
+        credentials
+        'aws_access_key_id=YOUR_AWS_ACCESS_KEY_ID;aws_secret_access_key=YOUR_AWS_SECRET_ACCESS_KEY'
+        csv
+        IGNOREHEADER 1;
+        , parameters: None
+[2024-06-13T04:34:56.443+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/test_redshift_real.py", line 125, in load_to_temp_redshift
+    redshift_hook.run(load_sql)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/hooks/sql.py", line 349, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/hooks/sql.py", line 380, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.InternalError_: S3ServiceException:The AWS Access Key Id you provided does not exist in our records.,Status 403,Error InvalidAccessKeyId,Rid 2NVGY6J9RTXMX891,ExtRid URfPxAaJy0KyJyoFgT2r2pqjmzeoR17VmqOixmYeZRQJWhXDrRxP3/Cq3a37pdEl0BW/fQJXAbc=,CanRetry 1
+DETAIL:  
+  -----------------------------------------------
+  error:  S3ServiceException:The AWS Access Key Id you provided does not exist in our records.,Status 403,Error InvalidAccessKeyId,Rid 2NVGY6J9RTXMX891,ExtRid URfPxAaJy0KyJyoFgT2r2pqjmzeoR17VmqOixmYeZRQJWhXDrRxP3/Cq3a37pdEl0BW/fQJXAbc=,CanRetry 1
+  code:      8001
+  context:   Listing bucket=dust-dag prefix=dataSource/api_raw_data.csv
+  query:     9677207
+  location:  s3_utility.cpp:701
+  process:   padbmaster [pid=1073947718]
+  -----------------------------------------------
+
+
+[2024-06-13T04:34:56.453+0000] {taskinstance.py:1323} INFO - Marking task as UP_FOR_RETRY. dag_id=api_to_s3_to_redshift, task_id=load_temp_redshift, execution_date=20240613T043446, start_date=20240613T043455, end_date=20240613T043456
+[2024-06-13T04:34:56.472+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 101 for task load_temp_redshift (S3ServiceException:The AWS Access Key Id you provided does not exist in our records.,Status 403,Error InvalidAccessKeyId,Rid 2NVGY6J9RTXMX891,ExtRid URfPxAaJy0KyJyoFgT2r2pqjmzeoR17VmqOixmYeZRQJWhXDrRxP3/Cq3a37pdEl0BW/fQJXAbc=,CanRetry 1
+DETAIL:  
+  -----------------------------------------------
+  error:  S3ServiceException:The AWS Access Key Id you provided does not exist in our records.,Status 403,Error InvalidAccessKeyId,Rid 2NVGY6J9RTXMX891,ExtRid URfPxAaJy0KyJyoFgT2r2pqjmzeoR17VmqOixmYeZRQJWhXDrRxP3/Cq3a37pdEl0BW/fQJXAbc=,CanRetry 1
+  code:      8001
+  context:   Listing bucket=dust-dag prefix=dataSource/api_raw_data.csv
+  query:     9677207
+  location:  s3_utility.cpp:701
+  process:   padbmaster [pid=1073947718]
+  -----------------------------------------------
+
+; 3726)
+[2024-06-13T04:34:56.486+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2024-06-13T04:34:56.519+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check
