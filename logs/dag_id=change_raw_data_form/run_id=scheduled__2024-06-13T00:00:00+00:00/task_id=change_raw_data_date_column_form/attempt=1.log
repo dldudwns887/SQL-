@@ -1,0 +1,51 @@
+[2024-06-14T03:36:16.275+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: change_raw_data_form.change_raw_data_date_column_form scheduled__2024-06-13T00:00:00+00:00 [queued]>
+[2024-06-14T03:36:16.311+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: change_raw_data_form.change_raw_data_date_column_form scheduled__2024-06-13T00:00:00+00:00 [queued]>
+[2024-06-14T03:36:16.312+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2024-06-14T03:36:16.364+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): change_raw_data_date_column_form> on 2024-06-13 00:00:00+00:00
+[2024-06-14T03:36:16.374+0000] {standard_task_runner.py:57} INFO - Started process 91 to run task
+[2024-06-14T03:36:16.390+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'change_raw_data_form', 'change_raw_data_date_column_form', 'scheduled__2024-06-13T00:00:00+00:00', '--job-id', '194', '--raw', '--subdir', 'DAGS_FOLDER/ChangeForm_RawData.py', '--cfg-path', '/tmp/tmp95y6jjwh']
+[2024-06-14T03:36:16.397+0000] {standard_task_runner.py:85} INFO - Job 194: Subtask change_raw_data_date_column_form
+[2024-06-14T03:36:16.619+0000] {task_command.py:410} INFO - Running <TaskInstance: change_raw_data_form.change_raw_data_date_column_form scheduled__2024-06-13T00:00:00+00:00 [running]> on host 6be9063e1a69
+[2024-06-14T03:36:17.008+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='change_raw_data_form' AIRFLOW_CTX_TASK_ID='change_raw_data_date_column_form' AIRFLOW_CTX_EXECUTION_DATE='2024-06-13T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-06-13T00:00:00+00:00'
+[2024-06-14T03:36:17.048+0000] {base.py:73} INFO - Using connection ID 'redshift_test_dev' for task execution.
+[2024-06-14T03:36:17.286+0000] {sql.py:375} INFO - Running statement: 
+    DROP TABLE IF EXISTS yusuyeon678.raw_data;
+    CREATE TABLE yusuyeon678.raw_data (
+        date TIMESTAMP NOT NULL,
+        region_code INT NOT NULL,
+        region_name VARCHAR(20) NOT NULL,
+        office_code INT NOT NULL,
+        office_name VARCHAR(20) NOT NULL,
+        dust FLOAT NOT NULL,
+        dust_24h FLOAT NOT NULL,
+        ultradust FLOAT NOT NULL,
+        O3 FLOAT NOT NULL,
+        NO2 FLOAT NOT NULL,
+        CO FLOAT NOT NULL,
+        SO2 FLOAT NOT NULL,
+        constraint raw_data_pk PRIMARY KEY (date, region_code, region_name, office_code, office_name)
+    );
+    , parameters: None
+[2024-06-14T03:36:17.501+0000] {base.py:73} INFO - Using connection ID 'redshift_test_dev' for task execution.
+[2024-06-14T03:36:17.695+0000] {sql.py:375} INFO - Running statement: 
+    INSERT INTO yusuyeon678.raw_data (date, region_code, region_name, office_code, office_name, dust, dust_24h, ultradust, O3, NO2, CO, SO2)
+    SELECT
+        TO_TIMESTAMP(CAST(date AS VARCHAR), 'YYYYMMDDHH24MI') AS date,
+        region_code,
+        region_name,
+        office_code,
+        office_name,
+        dust,
+        dust_24h,
+        ultradust,
+        O3,
+        NO2,
+        CO,
+        SO2
+    FROM yusuyeon678.raw_data_test_youngjun;
+    , parameters: None
+[2024-06-14T03:36:18.025+0000] {sql.py:384} INFO - Rows affected: 175
+[2024-06-14T03:36:26.916+0000] {python.py:183} INFO - Done. Returned value was: None
+[2024-06-14T03:36:26.972+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=change_raw_data_form, task_id=change_raw_data_date_column_form, execution_date=20240613T000000, start_date=20240614T033616, end_date=20240614T033626
+[2024-06-14T03:36:27.074+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-06-14T03:36:27.138+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

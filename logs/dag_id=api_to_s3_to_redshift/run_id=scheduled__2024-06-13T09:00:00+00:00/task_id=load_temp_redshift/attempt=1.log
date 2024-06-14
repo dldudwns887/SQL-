@@ -1,0 +1,24 @@
+[2024-06-13T10:05:27.738+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: api_to_s3_to_redshift.load_temp_redshift scheduled__2024-06-13T09:00:00+00:00 [queued]>
+[2024-06-13T10:05:27.749+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: api_to_s3_to_redshift.load_temp_redshift scheduled__2024-06-13T09:00:00+00:00 [queued]>
+[2024-06-13T10:05:27.750+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2024-06-13T10:05:27.768+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): load_temp_redshift> on 2024-06-13 09:00:00+00:00
+[2024-06-13T10:05:27.775+0000] {standard_task_runner.py:57} INFO - Started process 91 to run task
+[2024-06-13T10:05:27.780+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'api_to_s3_to_redshift', 'load_temp_redshift', 'scheduled__2024-06-13T09:00:00+00:00', '--job-id', '182', '--raw', '--subdir', 'DAGS_FOLDER/test_redshift_real.py', '--cfg-path', '/tmp/tmpdmj90kap']
+[2024-06-13T10:05:27.781+0000] {standard_task_runner.py:85} INFO - Job 182: Subtask load_temp_redshift
+[2024-06-13T10:05:27.856+0000] {task_command.py:410} INFO - Running <TaskInstance: api_to_s3_to_redshift.load_temp_redshift scheduled__2024-06-13T09:00:00+00:00 [running]> on host 6be9063e1a69
+[2024-06-13T10:05:27.972+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='api_to_s3_to_redshift' AIRFLOW_CTX_TASK_ID='load_temp_redshift' AIRFLOW_CTX_EXECUTION_DATE='2024-06-13T09:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-06-13T09:00:00+00:00'
+[2024-06-13T10:05:27.986+0000] {base.py:73} INFO - Using connection ID 'aws_s3' for task execution.
+[2024-06-13T10:05:27.987+0000] {connection_wrapper.py:337} INFO - AWS Connection (conn_id='aws_s3', conn_type='aws') credentials retrieved from login and password.
+[2024-06-13T10:05:28.009+0000] {base.py:73} INFO - Using connection ID 'redshift_test_dev' for task execution.
+[2024-06-13T10:05:28.486+0000] {sql.py:375} INFO - Running statement: 
+        COPY yusuyeon678.api_raw_data_temp
+        FROM 's3://dust-dag/dataSource/api_raw_data.csv'
+        credentials
+        'aws_access_key_id=AKIAZQ3DNY2P6X5UNXUG;aws_secret_access_key=***'
+        csv
+        IGNOREHEADER 1;
+        , parameters: None
+[2024-06-13T10:05:28.956+0000] {python.py:183} INFO - Done. Returned value was: None
+[2024-06-13T10:05:28.968+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=api_to_s3_to_redshift, task_id=load_temp_redshift, execution_date=20240613T090000, start_date=20240613T100527, end_date=20240613T100528
+[2024-06-13T10:05:29.037+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-06-13T10:05:29.090+0000] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,14 @@
+[2024-06-14T08:02:02.550+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: api_to_s3_to_redshift_v2.deduplicate_and_insert scheduled__2024-06-14T07:00:00+00:00 [queued]>
+[2024-06-14T08:02:02.566+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: api_to_s3_to_redshift_v2.deduplicate_and_insert scheduled__2024-06-14T07:00:00+00:00 [queued]>
+[2024-06-14T08:02:02.567+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2024-06-14T08:02:02.592+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): deduplicate_and_insert> on 2024-06-14 07:00:00+00:00
+[2024-06-14T08:02:02.599+0000] {standard_task_runner.py:57} INFO - Started process 423 to run task
+[2024-06-14T08:02:02.604+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'api_to_s3_to_redshift_v2', 'deduplicate_and_insert', 'scheduled__2024-06-14T07:00:00+00:00', '--job-id', '242', '--raw', '--subdir', 'DAGS_FOLDER/test_redshift_real_v2.py', '--cfg-path', '/tmp/tmp4s03abbl']
+[2024-06-14T08:02:02.606+0000] {standard_task_runner.py:85} INFO - Job 242: Subtask deduplicate_and_insert
+[2024-06-14T08:02:02.716+0000] {task_command.py:410} INFO - Running <TaskInstance: api_to_s3_to_redshift_v2.deduplicate_and_insert scheduled__2024-06-14T07:00:00+00:00 [running]> on host 9949536f6ac7
+[2024-06-14T08:02:02.829+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='api_to_s3_to_redshift_v2' AIRFLOW_CTX_TASK_ID='deduplicate_and_insert' AIRFLOW_CTX_EXECUTION_DATE='2024-06-14T07:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-06-14T07:00:00+00:00'
+[2024-06-14T08:02:02.843+0000] {base.py:73} INFO - Using connection ID 'redshift_test_dev' for task execution.
+[2024-06-14T08:02:03.488+0000] {python.py:183} INFO - Done. Returned value was: None
+[2024-06-14T08:02:03.512+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=api_to_s3_to_redshift_v2, task_id=deduplicate_and_insert, execution_date=20240614T070000, start_date=20240614T080202, end_date=20240614T080203
+[2024-06-14T08:02:03.581+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-06-14T08:02:03.621+0000] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,30 @@
+[2024-06-14T05:00:08.154+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: api_to_s3_to_redshift.create_temp_redshift_table scheduled__2024-06-14T04:00:00+00:00 [queued]>
+[2024-06-14T05:00:08.168+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: api_to_s3_to_redshift.create_temp_redshift_table scheduled__2024-06-14T04:00:00+00:00 [queued]>
+[2024-06-14T05:00:08.168+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2024-06-14T05:00:08.188+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): create_temp_redshift_table> on 2024-06-14 04:00:00+00:00
+[2024-06-14T05:00:08.194+0000] {standard_task_runner.py:57} INFO - Started process 1595 to run task
+[2024-06-14T05:00:08.198+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'api_to_s3_to_redshift', 'create_temp_redshift_table', 'scheduled__2024-06-14T04:00:00+00:00', '--job-id', '218', '--raw', '--subdir', 'DAGS_FOLDER/test_redshift_real.py', '--cfg-path', '/tmp/tmpgrmoxtuk']
+[2024-06-14T05:00:08.199+0000] {standard_task_runner.py:85} INFO - Job 218: Subtask create_temp_redshift_table
+[2024-06-14T05:00:08.252+0000] {task_command.py:410} INFO - Running <TaskInstance: api_to_s3_to_redshift.create_temp_redshift_table scheduled__2024-06-14T04:00:00+00:00 [running]> on host 6be9063e1a69
+[2024-06-14T05:00:08.355+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='api_to_s3_to_redshift' AIRFLOW_CTX_TASK_ID='create_temp_redshift_table' AIRFLOW_CTX_EXECUTION_DATE='2024-06-14T04:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-06-14T04:00:00+00:00'
+[2024-06-14T05:00:08.367+0000] {base.py:73} INFO - Using connection ID 'redshift_test_dev' for task execution.
+[2024-06-14T05:00:08.610+0000] {sql.py:375} INFO - Running statement: 
+        CREATE TABLE IF NOT EXISTS yusuyeon678.api_raw_data_temp (
+            date BIGINT NOT NULL,
+            region_code INT NOT NULL,
+            region_name VARCHAR(20) NOT NULL,
+            office_code INT NOT NULL,
+            office_name VARCHAR(20) NOT NULL,
+            dust FLOAT NOT NULL,
+            dust_24h FLOAT NOT NULL,
+            ultradust FLOAT NOT NULL,
+            O3 FLOAT NOT NULL,
+            NO2 FLOAT NOT NULL,
+            CO FLOAT NOT NULL,
+            SO2 FLOAT NOT NULL
+        );
+        , parameters: None
+[2024-06-14T05:00:08.695+0000] {python.py:183} INFO - Done. Returned value was: None
+[2024-06-14T05:00:08.707+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=api_to_s3_to_redshift, task_id=create_temp_redshift_table, execution_date=20240614T040000, start_date=20240614T050008, end_date=20240614T050008
+[2024-06-14T05:00:08.733+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-06-14T05:00:08.767+0000] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check
