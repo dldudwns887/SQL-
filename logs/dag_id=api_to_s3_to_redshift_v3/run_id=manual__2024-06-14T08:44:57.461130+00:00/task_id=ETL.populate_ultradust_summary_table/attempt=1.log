@@ -1,0 +1,31 @@
+[2024-06-14T08:45:25.902+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: api_to_s3_to_redshift_v3.ETL.populate_ultradust_summary_table manual__2024-06-14T08:44:57.461130+00:00 [queued]>
+[2024-06-14T08:45:25.921+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: api_to_s3_to_redshift_v3.ETL.populate_ultradust_summary_table manual__2024-06-14T08:44:57.461130+00:00 [queued]>
+[2024-06-14T08:45:25.921+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2024-06-14T08:45:25.946+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): ETL.populate_ultradust_summary_table> on 2024-06-14 08:44:57.461130+00:00
+[2024-06-14T08:45:25.955+0000] {standard_task_runner.py:57} INFO - Started process 1212 to run task
+[2024-06-14T08:45:25.988+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'api_to_s3_to_redshift_v3', 'ETL.populate_ultradust_summary_table', 'manual__2024-06-14T08:44:57.461130+00:00', '--job-id', '260', '--raw', '--subdir', 'DAGS_FOLDER/test_redshift_real_v3.py', '--cfg-path', '/tmp/tmp__z7ajl3']
+[2024-06-14T08:45:25.989+0000] {standard_task_runner.py:85} INFO - Job 260: Subtask ETL.populate_ultradust_summary_table
+[2024-06-14T08:45:26.287+0000] {task_command.py:410} INFO - Running <TaskInstance: api_to_s3_to_redshift_v3.ETL.populate_ultradust_summary_table manual__2024-06-14T08:44:57.461130+00:00 [running]> on host 9949536f6ac7
+[2024-06-14T08:45:26.508+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='api_to_s3_to_redshift_v3' AIRFLOW_CTX_TASK_ID='ETL.populate_ultradust_summary_table' AIRFLOW_CTX_EXECUTION_DATE='2024-06-14T08:44:57.461130+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-14T08:44:57.461130+00:00'
+[2024-06-14T08:45:26.593+0000] {base.py:73} INFO - Using connection ID 'redshift_test_dev' for task execution.
+[2024-06-14T08:45:26.780+0000] {sql.py:375} INFO - Running statement: 
+    DROP TABLE IF EXISTS yusuyeon678.seoul_ultradust_summary;
+    CREATE TABLE yusuyeon678.seoul_ultradust_summary (
+        date TIMESTAMP primary key,
+        ultradust FLOAT NOT NULL
+    );
+    , parameters: None
+[2024-06-14T08:45:26.875+0000] {base.py:73} INFO - Using connection ID 'redshift_test_dev' for task execution.
+[2024-06-14T08:45:27.017+0000] {sql.py:375} INFO - Running statement: 
+    INSERT INTO yusuyeon678.seoul_ultradust_summary (date, ultradust)
+    SELECT
+        date,
+        ROUND(AVG(ultradust), 2) AS ultradust
+    FROM yusuyeon678.raw_data
+    GROUP BY date;
+    , parameters: None
+[2024-06-14T08:45:27.194+0000] {sql.py:384} INFO - Rows affected: 13
+[2024-06-14T08:45:27.339+0000] {python.py:183} INFO - Done. Returned value was: None
+[2024-06-14T08:45:27.352+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=api_to_s3_to_redshift_v3, task_id=ETL.populate_ultradust_summary_table, execution_date=20240614T084457, start_date=20240614T084525, end_date=20240614T084527
+[2024-06-14T08:45:27.393+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-06-14T08:45:27.418+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

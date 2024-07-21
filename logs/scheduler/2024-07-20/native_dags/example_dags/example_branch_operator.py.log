@@ -1,0 +1,125 @@
+[2024-07-20T14:10:42.623+0900] {processor.py:161} INFO - Started process (PID=12739) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:10:42.704+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-07-20T14:10:42.744+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:10:42.739+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:10:43.855+0900] {processor.py:842} WARNING - No viable dags retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:10:44.195+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 1.718 seconds
+[2024-07-20T14:12:02.950+0900] {processor.py:161} INFO - Started process (PID=13246) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:12:02.954+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-07-20T14:12:02.961+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:12:02.957+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:12:03.533+0900] {processor.py:842} WARNING - No viable dags retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:12:03.567+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.635 seconds
+[2024-07-20T14:13:28.283+0900] {processor.py:161} INFO - Started process (PID=13775) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:13:28.286+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-07-20T14:13:28.288+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:13:28.288+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:13:28.547+0900] {processor.py:842} WARNING - No viable dags retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:13:28.559+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.284 seconds
+[2024-07-20T14:14:51.470+0900] {processor.py:161} INFO - Started process (PID=14295) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:14:51.473+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-07-20T14:14:51.477+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:14:51.476+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:14:51.860+0900] {processor.py:842} WARNING - No viable dags retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:14:51.881+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.423 seconds
+[2024-07-20T14:16:08.908+0900] {processor.py:161} INFO - Started process (PID=14789) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:16:08.912+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-07-20T14:16:08.915+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:16:08.914+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:16:09.075+0900] {processor.py:842} WARNING - No viable dags retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:16:09.097+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.205 seconds
+[2024-07-20T14:17:30.328+0900] {processor.py:161} INFO - Started process (PID=15304) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:17:30.330+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-07-20T14:17:30.333+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:17:30.332+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:17:30.876+0900] {processor.py:842} WARNING - No viable dags retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:17:30.887+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.569 seconds
+[2024-07-20T14:18:51.472+0900] {processor.py:161} INFO - Started process (PID=15815) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:18:51.475+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-07-20T14:18:51.480+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:18:51.479+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:18:52.128+0900] {processor.py:842} WARNING - No viable dags retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:18:52.162+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.705 seconds
+[2024-07-20T14:20:07.682+0900] {processor.py:161} INFO - Started process (PID=16311) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:20:07.686+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-07-20T14:20:07.691+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:20:07.690+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:20:08.239+0900] {processor.py:842} WARNING - No viable dags retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:20:08.277+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.612 seconds
+[2024-07-20T14:21:30.295+0900] {processor.py:161} INFO - Started process (PID=16837) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:21:30.298+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-07-20T14:21:30.303+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:21:30.302+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:21:31.226+0900] {processor.py:842} WARNING - No viable dags retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:21:31.256+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.977 seconds
+[2024-07-20T14:23:05.173+0900] {processor.py:161} INFO - Started process (PID=17446) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:23:05.181+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-07-20T14:23:05.187+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:23:05.185+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:23:06.066+0900] {processor.py:842} WARNING - No viable dags retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:23:06.097+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.947 seconds
+[2024-07-20T14:24:44.768+0900] {processor.py:161} INFO - Started process (PID=18032) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:24:44.769+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-07-20T14:24:44.770+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:24:44.770+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:24:44.909+0900] {processor.py:842} WARNING - No viable dags retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:24:44.923+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.161 seconds
+[2024-07-20T14:26:21.922+0900] {processor.py:161} INFO - Started process (PID=18611) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:26:21.924+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-07-20T14:26:21.926+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:26:21.925+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:26:22.278+0900] {processor.py:842} WARNING - No viable dags retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:26:22.312+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.399 seconds
+[2024-07-20T14:27:53.822+0900] {processor.py:161} INFO - Started process (PID=19164) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:27:53.825+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-07-20T14:27:53.827+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:27:53.826+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:27:53.948+0900] {processor.py:842} WARNING - No viable dags retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:27:53.964+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.152 seconds
+[2024-07-20T14:29:11.474+0900] {processor.py:161} INFO - Started process (PID=19665) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:29:11.476+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-07-20T14:29:11.478+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:29:11.477+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:29:12.112+0900] {processor.py:842} WARNING - No viable dags retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:29:12.135+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.671 seconds
+[2024-07-20T14:30:34.454+0900] {processor.py:161} INFO - Started process (PID=20189) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:30:34.457+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-07-20T14:30:34.459+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:30:34.458+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:30:34.930+0900] {processor.py:842} WARNING - No viable dags retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:30:34.952+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.508 seconds
+[2024-07-20T14:31:49.705+0900] {processor.py:161} INFO - Started process (PID=20681) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:31:49.708+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-07-20T14:31:49.709+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:31:49.709+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:31:50.353+0900] {processor.py:842} WARNING - No viable dags retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:31:50.389+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.693 seconds
+[2024-07-20T14:33:23.039+0900] {processor.py:161} INFO - Started process (PID=21236) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:33:23.045+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-07-20T14:33:23.050+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:33:23.049+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:33:23.663+0900] {processor.py:842} WARNING - No viable dags retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:33:23.699+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.674 seconds
+[2024-07-20T14:34:51.191+0900] {processor.py:161} INFO - Started process (PID=21780) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:34:51.193+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-07-20T14:34:51.195+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:34:51.194+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:34:51.377+0900] {processor.py:842} WARNING - No viable dags retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:34:51.403+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.225 seconds
+[2024-07-20T14:36:10.353+0900] {processor.py:161} INFO - Started process (PID=22285) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:36:10.356+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-07-20T14:36:10.358+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:36:10.357+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:36:10.909+0900] {processor.py:842} WARNING - No viable dags retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:36:10.945+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.604 seconds
+[2024-07-20T14:37:29.963+0900] {processor.py:161} INFO - Started process (PID=22790) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:37:29.975+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-07-20T14:37:29.977+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:37:29.976+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:37:30.580+0900] {processor.py:842} WARNING - No viable dags retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:37:30.611+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.671 seconds
+[2024-07-20T14:38:55.503+0900] {processor.py:161} INFO - Started process (PID=23315) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:38:55.505+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-07-20T14:38:55.507+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:38:55.506+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:38:55.943+0900] {processor.py:842} WARNING - No viable dags retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:38:55.970+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.478 seconds
+[2024-07-20T14:40:24.312+0900] {processor.py:161} INFO - Started process (PID=23862) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:40:24.318+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-07-20T14:40:24.320+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:40:24.319+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:40:24.853+0900] {processor.py:842} WARNING - No viable dags retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:40:24.874+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.580 seconds
+[2024-07-20T14:42:00.030+0900] {processor.py:161} INFO - Started process (PID=24429) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:42:00.035+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-07-20T14:42:00.037+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:42:00.036+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:42:00.552+0900] {processor.py:842} WARNING - No viable dags retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:42:00.577+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.561 seconds
+[2024-07-20T14:43:20.621+0900] {processor.py:161} INFO - Started process (PID=24964) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:43:20.626+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-07-20T14:43:20.629+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:43:20.628+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:43:21.789+0900] {processor.py:842} WARNING - No viable dags retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:43:21.811+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 1.208 seconds
+[2024-07-20T14:44:51.249+0900] {processor.py:161} INFO - Started process (PID=25513) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:44:51.261+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-07-20T14:44:51.262+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:44:51.262+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:44:51.716+0900] {processor.py:842} WARNING - No viable dags retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-07-20T14:44:51.735+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.499 seconds

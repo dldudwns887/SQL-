@@ -1,0 +1,1 @@
+[2024-07-17T15:01:54.053+0000] {scheduler_job_runner.py:781} ERROR - Executor reports task instance <TaskInstance: musinsa_dag.read_s3_and_print_head manual__2024-07-17T15:01:51.904791+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?

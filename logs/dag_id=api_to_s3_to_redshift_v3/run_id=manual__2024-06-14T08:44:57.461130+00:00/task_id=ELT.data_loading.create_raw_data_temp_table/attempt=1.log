@@ -1,0 +1,30 @@
+[2024-06-14T08:45:07.019+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: api_to_s3_to_redshift_v3.ELT.data_loading.create_raw_data_temp_table manual__2024-06-14T08:44:57.461130+00:00 [queued]>
+[2024-06-14T08:45:07.039+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: api_to_s3_to_redshift_v3.ELT.data_loading.create_raw_data_temp_table manual__2024-06-14T08:44:57.461130+00:00 [queued]>
+[2024-06-14T08:45:07.039+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2024-06-14T08:45:07.123+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): ELT.data_loading.create_raw_data_temp_table> on 2024-06-14 08:44:57.461130+00:00
+[2024-06-14T08:45:07.133+0000] {standard_task_runner.py:57} INFO - Started process 1183 to run task
+[2024-06-14T08:45:07.139+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'api_to_s3_to_redshift_v3', 'ELT.data_loading.create_raw_data_temp_table', 'manual__2024-06-14T08:44:57.461130+00:00', '--job-id', '255', '--raw', '--subdir', 'DAGS_FOLDER/test_redshift_real_v3.py', '--cfg-path', '/tmp/tmpb6ze63ce']
+[2024-06-14T08:45:07.140+0000] {standard_task_runner.py:85} INFO - Job 255: Subtask ELT.data_loading.create_raw_data_temp_table
+[2024-06-14T08:45:07.239+0000] {task_command.py:410} INFO - Running <TaskInstance: api_to_s3_to_redshift_v3.ELT.data_loading.create_raw_data_temp_table manual__2024-06-14T08:44:57.461130+00:00 [running]> on host 9949536f6ac7
+[2024-06-14T08:45:07.393+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='api_to_s3_to_redshift_v3' AIRFLOW_CTX_TASK_ID='ELT.data_loading.create_raw_data_temp_table' AIRFLOW_CTX_EXECUTION_DATE='2024-06-14T08:44:57.461130+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-14T08:44:57.461130+00:00'
+[2024-06-14T08:45:07.418+0000] {base.py:73} INFO - Using connection ID 'redshift_test_dev' for task execution.
+[2024-06-14T08:45:07.862+0000] {sql.py:375} INFO - Running statement: 
+    CREATE TABLE IF NOT EXISTS yusuyeon678.api_raw_data_temp (
+        date BIGINT NOT NULL,
+        region_code INT NOT NULL,
+        region_name VARCHAR(20) NOT NULL,
+        office_code INT NOT NULL,
+        office_name VARCHAR(20) NOT NULL,
+        dust FLOAT NOT NULL,
+        dust_24h FLOAT NOT NULL,
+        ultradust FLOAT NOT NULL,
+        O3 FLOAT NOT NULL,
+        NO2 FLOAT NOT NULL,
+        CO FLOAT NOT NULL,
+        SO2 FLOAT NOT NULL
+    );
+    , parameters: None
+[2024-06-14T08:45:07.937+0000] {python.py:183} INFO - Done. Returned value was: None
+[2024-06-14T08:45:07.959+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=api_to_s3_to_redshift_v3, task_id=ELT.data_loading.create_raw_data_temp_table, execution_date=20240614T084457, start_date=20240614T084507, end_date=20240614T084507
+[2024-06-14T08:45:07.995+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-06-14T08:45:08.054+0000] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check

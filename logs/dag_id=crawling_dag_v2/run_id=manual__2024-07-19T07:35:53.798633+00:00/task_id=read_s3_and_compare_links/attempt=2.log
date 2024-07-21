@@ -1,0 +1,339 @@
+[2024-07-19T07:45:58.890+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: crawling_dag_v2.read_s3_and_compare_links manual__2024-07-19T07:35:53.798633+00:00 [queued]>
+[2024-07-19T07:45:58.905+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: crawling_dag_v2.read_s3_and_compare_links manual__2024-07-19T07:35:53.798633+00:00 [queued]>
+[2024-07-19T07:45:58.906+0000] {taskinstance.py:2193} INFO - Starting attempt 2 of 2
+[2024-07-19T07:45:58.929+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): read_s3_and_compare_links> on 2024-07-19 07:35:53.798633+00:00
+[2024-07-19T07:45:58.937+0000] {standard_task_runner.py:60} INFO - Started process 555 to run task
+[2024-07-19T07:45:58.942+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'crawling_dag_v2', 'read_s3_and_compare_links', 'manual__2024-07-19T07:35:53.798633+00:00', '--job-id', '454', '--raw', '--subdir', 'DAGS_FOLDER/musinsa_dag.py', '--cfg-path', '/tmp/tmp0_tgtij9']
+[2024-07-19T07:45:58.946+0000] {standard_task_runner.py:88} INFO - Job 454: Subtask read_s3_and_compare_links
+[2024-07-19T07:45:59.014+0000] {task_command.py:423} INFO - Running <TaskInstance: crawling_dag_v2.read_s3_and_compare_links manual__2024-07-19T07:35:53.798633+00:00 [running]> on host 9a455ef6c02c
+[2024-07-19T07:45:59.151+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='crawling_dag_v2' AIRFLOW_CTX_TASK_ID='read_s3_and_compare_links' AIRFLOW_CTX_EXECUTION_DATE='2024-07-19T07:35:53.798633+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-07-19T07:35:53.798633+00:00'
+[2024-07-19T07:45:59.169+0000] {base.py:83} INFO - Using connection ID 'aws_s3' for task execution.
+[2024-07-19T07:45:59.170+0000] {connection_wrapper.py:384} INFO - AWS Connection (conn_id='aws_s3', conn_type='aws') credentials retrieved from login and password.
+[2024-07-19T07:46:35.854+0000] {logging_mixin.py:188} INFO - Current number of unique href links: 43
+[2024-07-19T07:47:00.737+0000] {logging_mixin.py:188} INFO - Current number of unique href links: 86
+[2024-07-19T07:47:25.104+0000] {logging_mixin.py:188} INFO - Current number of unique href links: 129
+[2024-07-19T07:47:25.291+0000] {base.py:83} INFO - Using connection ID 'aws_s3' for task execution.
+[2024-07-19T07:47:25.292+0000] {connection_wrapper.py:384} INFO - AWS Connection (conn_id='aws_s3', conn_type='aws') credentials retrieved from login and password.
+[2024-07-19T07:47:25.646+0000] {logging_mixin.py:188} INFO - New links saved to S3
+[2024-07-19T07:47:42.347+0000] {logging_mixin.py:188} INFO - review_id: LV.4 갖고싶은쿠바단추
+[2024-07-19T07:47:42.385+0000] {logging_mixin.py:188} INFO - weight_height_gender: 남성 · 180cm · 75kg
+[2024-07-19T07:47:42.418+0000] {logging_mixin.py:188} INFO - top_size: 보통이에요
+[2024-07-19T07:47:42.452+0000] {logging_mixin.py:188} INFO - brightness_comment: 보통이에요
+[2024-07-19T07:47:42.485+0000] {logging_mixin.py:188} INFO - color_comment: 보통이에요
+[2024-07-19T07:47:42.519+0000] {logging_mixin.py:188} INFO - thickness_comment: 보통이에요
+[2024-07-19T07:47:42.554+0000] {logging_mixin.py:188} INFO - purchased_product_id: https://www.musinsa.com/app/goods/1191407/0
+[2024-07-19T07:47:42.588+0000] {logging_mixin.py:188} INFO - purchased_size: M
+[2024-07-19T07:47:42.623+0000] {logging_mixin.py:188} INFO - comment: 정말 좋아요 이 옷 입고 나서 자신감이 생겼습니다
+[2024-07-19T07:47:42.661+0000] {logging_mixin.py:188} INFO - review_id: LV.5 효기애기
+[2024-07-19T07:48:02.860+0000] {logging_mixin.py:188} INFO - Review information not found for element index: 4
+[2024-07-19T07:48:02.930+0000] {logging_mixin.py:188} INFO - review_id: LV.5 오늘만 사는 놈
+[2024-07-19T07:48:02.972+0000] {logging_mixin.py:188} INFO - weight_height_gender: 남성 · 180cm · 69kg
+[2024-07-19T07:48:03.014+0000] {logging_mixin.py:188} INFO - top_size: 보통이에요
+[2024-07-19T07:48:03.075+0000] {logging_mixin.py:188} INFO - brightness_comment: 보통이에요
+[2024-07-19T07:48:03.114+0000] {logging_mixin.py:188} INFO - color_comment: 보통이에요
+[2024-07-19T07:48:03.152+0000] {logging_mixin.py:188} INFO - thickness_comment: 보통이에요
+[2024-07-19T07:48:03.183+0000] {logging_mixin.py:188} INFO - purchased_product_id: https://www.musinsa.com/app/goods/1191407/0
+[2024-07-19T07:48:03.216+0000] {logging_mixin.py:188} INFO - purchased_size: M
+[2024-07-19T07:48:03.250+0000] {logging_mixin.py:188} INFO - comment: 받아보고 세탁 하자마자 버렸어요. 다른 옷에 스치기만 해도 니트먼지가 장난아니게 붙어나오네요. 고양이랑 24시간동안 뒹굴어도 이것보단 덜 할 것 같아요. 진짜 충격먹었습니다. 원래 오트밀이랑 블랙 주문했었는데 블랙 먼저 오고 오트밀은 예약 배송이라서 바로 취소했어요. 진짜 기관지염 걸릴 것 같은 수준이에요. 입었다가 벗으면 간지럽기까지 하네요. 특유의 화학제품 냄새도 세탁하면 사라질 줄 알았는데 세탁해도 나요. 이 정도면 한 장에 얼마를 남겨드시는건지 참.. 테이크이지 다시는 안 살 것 같아요.
+[2024-07-19T07:48:03.291+0000] {logging_mixin.py:188} INFO - review_id: LV.6 세도리야
+[2024-07-19T07:48:03.365+0000] {logging_mixin.py:188} INFO - weight_height_gender: 여성 · 166cm · 51kg
+[2024-07-19T07:48:03.407+0000] {logging_mixin.py:188} INFO - top_size: 보통이에요
+[2024-07-19T07:48:03.448+0000] {logging_mixin.py:188} INFO - brightness_comment: 밝아요
+[2024-07-19T07:48:03.483+0000] {logging_mixin.py:188} INFO - color_comment: 선명해요
+[2024-07-19T07:48:03.518+0000] {logging_mixin.py:188} INFO - thickness_comment: 보통이에요
+[2024-07-19T07:48:03.554+0000] {logging_mixin.py:188} INFO - purchased_product_id: https://www.musinsa.com/app/goods/1191407/0
+[2024-07-19T07:48:03.591+0000] {logging_mixin.py:188} INFO - purchased_size: S
+[2024-07-19T07:48:03.630+0000] {logging_mixin.py:188} INFO - comment: 키큰편이라 작을줄 알았는데 잘맞아서 좋아용 오버핏 좋아하면 미듐 해도 될거같아요 이쁨 소라색도 살거야❤️
+[2024-07-19T07:48:03.663+0000] {logging_mixin.py:188} INFO - review_id: LV.3 알찬타이베이버튼
+[2024-07-19T07:48:03.712+0000] {logging_mixin.py:188} INFO - weight_height_gender: 여성 · 163cm · 53kg
+[2024-07-19T07:48:03.751+0000] {logging_mixin.py:188} INFO - top_size: 보통이에요
+[2024-07-19T07:48:03.787+0000] {logging_mixin.py:188} INFO - brightness_comment: 보통이에요
+[2024-07-19T07:48:03.822+0000] {logging_mixin.py:188} INFO - color_comment: 보통이에요
+[2024-07-19T07:48:03.882+0000] {logging_mixin.py:188} INFO - thickness_comment: 두꺼워요
+[2024-07-19T07:48:03.913+0000] {logging_mixin.py:188} INFO - purchased_product_id: https://www.musinsa.com/app/goods/1191407/0
+[2024-07-19T07:48:03.966+0000] {logging_mixin.py:188} INFO - purchased_size: M
+[2024-07-19T07:48:04.024+0000] {logging_mixin.py:188} INFO - comment: 제가 생각했던 핏이고 예쁘고 따뜻해용 오래 입을 듯
+[2024-07-19T07:48:04.090+0000] {logging_mixin.py:188} INFO - review_id: LV.3 패기있는합정벨벳
+[2024-07-19T07:48:04.158+0000] {logging_mixin.py:188} INFO - weight_height_gender: 남성 · 171cm · 92kg
+[2024-07-19T07:48:04.222+0000] {logging_mixin.py:188} INFO - top_size: 보통이에요
+[2024-07-19T07:48:04.285+0000] {logging_mixin.py:188} INFO - brightness_comment: 보통이에요
+[2024-07-19T07:48:04.338+0000] {logging_mixin.py:188} INFO - color_comment: 선명해요
+[2024-07-19T07:48:04.375+0000] {logging_mixin.py:188} INFO - thickness_comment: 두꺼워요
+[2024-07-19T07:48:04.421+0000] {logging_mixin.py:188} INFO - purchased_product_id: https://www.musinsa.com/app/goods/1191407/0
+[2024-07-19T07:48:04.463+0000] {logging_mixin.py:188} INFO - purchased_size: L
+[2024-07-19T07:48:04.509+0000] {logging_mixin.py:188} INFO - comment: 171cm 92kg 뚱띠도 입기 좋은 니트네요 살빼러가야지..
+[2024-07-19T07:48:04.550+0000] {logging_mixin.py:188} INFO - review_id: LV.5 더얼든
+[2024-07-19T07:48:04.630+0000] {logging_mixin.py:188} INFO - weight_height_gender: 남성 · 181cm · 81kg
+[2024-07-19T07:48:04.665+0000] {logging_mixin.py:188} INFO - top_size: 커요
+[2024-07-19T07:48:04.704+0000] {logging_mixin.py:188} INFO - brightness_comment: 어두워요
+[2024-07-19T07:48:04.742+0000] {logging_mixin.py:188} INFO - color_comment: 선명해요
+[2024-07-19T07:48:04.775+0000] {logging_mixin.py:188} INFO - thickness_comment: 두꺼워요
+[2024-07-19T07:48:04.806+0000] {logging_mixin.py:188} INFO - purchased_product_id: https://www.musinsa.com/app/goods/1191407/0
+[2024-07-19T07:48:04.839+0000] {logging_mixin.py:188} INFO - purchased_size: L
+[2024-07-19T07:48:04.875+0000] {logging_mixin.py:188} INFO - comment: XL가 있었으면 그걸로 했을텐데 그래도 딱 원하는 스타일 연출 할 수 있을 정도의 루즈함이네요. 생각 보다 많이 루즈 하진 않아요. 제가 돼지라서 그런걸 수도…ㅎㅎ 질감은 좀 거칠어서 레이어드티를 입거나 히트텍 입으면 될 것 같아요. 아주 그읃~!
+[2024-07-19T07:48:04.875+0000] {logging_mixin.py:188} INFO - {'product_id': 'top1', 'product_name': '램스울 크루넥 오버 니트 (블랙)', 'category': '상의', 'price': '34,738 ~ 37,800원', 'image_url': 'https://image.msscdn.net/images/goods_img/20191017/1191407/1191407_2_500.jpg', 'description': 'https://www.musinsa.com/app/goods/1191407', 'size': ['S', 'M', 'L'], 'reviews': [{'weight_height_gender': '남성 · 180cm · 75kg', 'review_id': 'LV.4 갖고싶은쿠바단추', 'top_size': '보통이에요', 'brightness_comment': '보통이에요', 'color_comment': '보통이에요', 'thickness_comment': '보통이에요', 'purchased_product_id': 'https://www.musinsa.com/app/goods/1191407/0', 'purchased_size': 'M', 'comment': '정말 좋아요 이 옷 입고 나서 자신감이 생겼습니다'}, {'weight_height_gender': '남성 · 180cm · 69kg', 'review_id': 'LV.5 오늘만 사는 놈', 'top_size': '보통이에요', 'brightness_comment': '보통이에요', 'color_comment': '보통이에요', 'thickness_comment': '보통이에요', 'purchased_product_id': 'https://www.musinsa.com/app/goods/1191407/0', 'purchased_size': 'M', 'comment': '받아보고 세탁 하자마자 버렸어요. 다른 옷에 스치기만 해도 니트먼지가 장난아니게 붙어나오네요. 고양이랑 24시간동안 뒹굴어도 이것보단 덜 할 것 같아요. 진짜 충격먹었습니다. 원래 오트밀이랑 블랙 주문했었는데 블랙 먼저 오고 오트밀은 예약 배송이라서 바로 취소했어요. 진짜 기관지염 걸릴 것 같은 수준이에요. 입었다가 벗으면 간지럽기까지 하네요. 특유의 화학제품 냄새도 세탁하면 사라질 줄 알았는데 세탁해도 나요. 이 정도면 한 장에 얼마를 남겨드시는건지 참.. 테이크이지 다시는 안 살 것 같아요.'}, {'weight_height_gender': '여성 · 166cm · 51kg', 'review_id': 'LV.6 세도리야', 'top_size': '보통이에요', 'brightness_comment': '밝아요', 'color_comment': '선명해요', 'thickness_comment': '보통이에요', 'purchased_product_id': 'https://www.musinsa.com/app/goods/1191407/0', 'purchased_size': 'S', 'comment': '키큰편이라 작을줄 알았는데 잘맞아서 좋아용 오버핏 좋아하면 미듐 해도 될거같아요 이쁨 소라색도 살거야❤️'}, {'weight_height_gender': '여성 · 163cm · 53kg', 'review_id': 'LV.3 알찬타이베이버튼', 'top_size': '보통이에요', 'brightness_comment': '보통이에요', 'color_comment': '보통이에요', 'thickness_comment': '두꺼워요', 'purchased_product_id': 'https://www.musinsa.com/app/goods/1191407/0', 'purchased_size': 'M', 'comment': '제가 생각했던 핏이고 예쁘고 따뜻해용 오래 입을 듯'}, {'weight_height_gender': '남성 · 171cm · 92kg', 'review_id': 'LV.3 패기있는합정벨벳', 'top_size': '보통이에요', 'brightness_comment': '보통이에요', 'color_comment': '선명해요', 'thickness_comment': '두꺼워요', 'purchased_product_id': 'https://www.musinsa.com/app/goods/1191407/0', 'purchased_size': 'L', 'comment': '171cm 92kg 뚱띠도 입기 좋은 니트네요 살빼러가야지..'}, {'weight_height_gender': '남성 · 181cm · 81kg', 'review_id': 'LV.5 더얼든', 'top_size': '커요', 'brightness_comment': '어두워요', 'color_comment': '선명해요', 'thickness_comment': '두꺼워요', 'purchased_product_id': 'https://www.musinsa.com/app/goods/1191407/0', 'purchased_size': 'L', 'comment': 'XL가 있었으면 그걸로 했을텐데 그래도 딱 원하는 스타일 연출 할 수 있을 정도의 루즈함이네요. 생각 보다 많이 루즈 하진 않아요. 제가 돼지라서 그런걸 수도…ㅎㅎ 질감은 좀 거칠어서 레이어드티를 입거나 히트텍 입으면 될 것 같아요. 아주 그읃~!'}]}
+[2024-07-19T07:48:04.876+0000] {logging_mixin.py:188} INFO - Processed 1 products
+[2024-07-19T07:48:15.518+0000] {logging_mixin.py:188} INFO - review_id: LV.5 Jnleee
+[2024-07-19T07:48:15.588+0000] {logging_mixin.py:188} INFO - weight_height_gender: 남성 · 177cm · 55kg
+[2024-07-19T07:48:15.647+0000] {logging_mixin.py:188} INFO - top_size: 커요
+[2024-07-19T07:48:15.691+0000] {logging_mixin.py:188} INFO - brightness_comment: 보통이에요
+[2024-07-19T07:48:15.741+0000] {logging_mixin.py:188} INFO - color_comment: 보통이에요
+[2024-07-19T07:48:15.800+0000] {logging_mixin.py:188} INFO - thickness_comment: 보통이에요
+[2024-07-19T07:48:15.844+0000] {logging_mixin.py:188} INFO - purchased_product_id: https://www.musinsa.com/app/goods/1599217/0
+[2024-07-19T07:48:15.902+0000] {logging_mixin.py:188} INFO - purchased_size: M
+[2024-07-19T07:48:15.971+0000] {logging_mixin.py:188} INFO - comment: 사이즈 M
+정사이즈에서 살짝 오버하게 떨어질거 예상했습니다
+생각보다 기네요 그래도 오버핏 떨어져서 주름지는게 진짜 이쁘네요 마른 분들은 이거 하나만 걸쳐도
+이쁠것 같습니다
+[2024-07-19T07:48:16.032+0000] {logging_mixin.py:188} INFO - review_id: LV.5 최신멜란지슬링백
+[2024-07-19T07:48:16.092+0000] {logging_mixin.py:188} INFO - weight_height_gender: 여성 · 158cm · 43kg
+[2024-07-19T07:48:16.155+0000] {logging_mixin.py:188} INFO - top_size: 커요
+[2024-07-19T07:48:16.200+0000] {logging_mixin.py:188} INFO - brightness_comment: 보통이에요
+[2024-07-19T07:48:16.236+0000] {logging_mixin.py:188} INFO - color_comment: 보통이에요
+[2024-07-19T07:48:16.274+0000] {logging_mixin.py:188} INFO - thickness_comment: 보통이에요
+[2024-07-19T07:48:16.316+0000] {logging_mixin.py:188} INFO - purchased_product_id: https://www.musinsa.com/app/goods/1599217/0
+[2024-07-19T07:48:16.357+0000] {logging_mixin.py:188} INFO - purchased_size: S
+[2024-07-19T07:48:16.396+0000] {logging_mixin.py:188} INFO - comment: 냄새도 살짝 나고 까슬까슬하지만 막 신경쓰일정도는 아니구용 일단 색이 너무 예뻐요.. 핏도 예뻐... 이거 차콜 웨않사.. 너무 예뽀용
+[2024-07-19T07:48:16.436+0000] {logging_mixin.py:188} INFO - review_id: LV.6 hzxxz
+[2024-07-19T07:48:16.483+0000] {logging_mixin.py:188} INFO - weight_height_gender: 여성 · 160cm · 150kg
+[2024-07-19T07:48:16.530+0000] {logging_mixin.py:188} INFO - top_size: 커요
+[2024-07-19T07:48:16.575+0000] {logging_mixin.py:188} INFO - brightness_comment: 보통이에요
+[2024-07-19T07:48:16.629+0000] {logging_mixin.py:188} INFO - color_comment: 선명해요
+[2024-07-19T07:48:16.672+0000] {logging_mixin.py:188} INFO - thickness_comment: 두꺼워요
+[2024-07-19T07:48:16.714+0000] {logging_mixin.py:188} INFO - purchased_product_id: https://www.musinsa.com/app/goods/1599217/0
+[2024-07-19T07:48:16.762+0000] {logging_mixin.py:188} INFO - purchased_size: S
+[2024-07-19T07:48:16.796+0000] {logging_mixin.py:188} INFO - comment: 예쁜데 s사이즈도 커여 까칠까칠해서 레이어드해서 입어야합니댜
+[2024-07-19T07:48:16.828+0000] {logging_mixin.py:188} INFO - review_id: LV.5 우파란
+[2024-07-19T07:48:16.864+0000] {logging_mixin.py:188} INFO - weight_height_gender: 남성 · 183cm · 67kg
+[2024-07-19T07:48:16.916+0000] {logging_mixin.py:188} INFO - top_size: 커요
+[2024-07-19T07:48:16.981+0000] {logging_mixin.py:188} INFO - brightness_comment: 보통이에요
+[2024-07-19T07:48:17.036+0000] {logging_mixin.py:188} INFO - color_comment: 선명해요
+[2024-07-19T07:48:17.092+0000] {logging_mixin.py:188} INFO - thickness_comment: 보통이에요
+[2024-07-19T07:48:17.138+0000] {logging_mixin.py:188} INFO - purchased_product_id: https://www.musinsa.com/app/goods/1599217/0
+[2024-07-19T07:48:17.198+0000] {logging_mixin.py:188} INFO - purchased_size: L
+[2024-07-19T07:48:17.254+0000] {logging_mixin.py:188} INFO - comment: 오버사이즈를 좋아해서 큰 사이즈로 시켰는데 살짝 긴
+감이 있긴 하지만 안쪽으로 살짝 말아서 옷핀으로 꽂고 다녀도 좋았습니다 ! ( 안하고 다녀도 넉넉한 기장감이라 안에 흰 티셔츠 입고, 회색 츄리닝 바지 입어도 괜찮았어요)
+
+개인적으로는 맨 살에 입어도 별로 까끌거리거나 불편하진 않았습니다 👍🏻
+[2024-07-19T07:48:17.315+0000] {logging_mixin.py:188} INFO - review_id: LV.4 육이아부지
+[2024-07-19T07:48:17.382+0000] {logging_mixin.py:188} INFO - weight_height_gender: 남성 · 173cm · 83kg
+[2024-07-19T07:48:17.448+0000] {logging_mixin.py:188} INFO - top_size: 커요
+[2024-07-19T07:48:17.497+0000] {logging_mixin.py:188} INFO - brightness_comment: 보통이에요
+[2024-07-19T07:48:17.547+0000] {logging_mixin.py:188} INFO - color_comment: 보통이에요
+[2024-07-19T07:48:17.582+0000] {logging_mixin.py:188} INFO - thickness_comment: 두꺼워요
+[2024-07-19T07:48:17.610+0000] {logging_mixin.py:188} INFO - purchased_product_id: https://www.musinsa.com/app/goods/1599217/0
+[2024-07-19T07:48:17.640+0000] {logging_mixin.py:188} INFO - purchased_size: L
+[2024-07-19T07:48:17.671+0000] {logging_mixin.py:188} INFO - comment: 옷은 큼직하고 이쁩니다 새옷냄새가 많이 나요 몇번 세탁해야 냄새 빠집니다
+[2024-07-19T07:48:17.705+0000] {logging_mixin.py:188} INFO - review_id: LV.7 문꾸엑
+[2024-07-19T07:48:17.737+0000] {logging_mixin.py:188} INFO - weight_height_gender: 여성 · 161cm · 53kg
+[2024-07-19T07:48:17.777+0000] {logging_mixin.py:188} INFO - top_size: 보통이에요
+[2024-07-19T07:48:17.815+0000] {logging_mixin.py:188} INFO - brightness_comment: 보통이에요
+[2024-07-19T07:48:17.858+0000] {logging_mixin.py:188} INFO - color_comment: 보통이에요
+[2024-07-19T07:48:17.900+0000] {logging_mixin.py:188} INFO - thickness_comment: 보통이에요
+[2024-07-19T07:48:17.939+0000] {logging_mixin.py:188} INFO - purchased_product_id: https://www.musinsa.com/app/goods/1599217/0
+[2024-07-19T07:48:17.984+0000] {logging_mixin.py:188} INFO - purchased_size: S
+[2024-07-19T07:48:18.038+0000] {logging_mixin.py:188} INFO - comment: 디자인 무난하고 좀 거칠긴 한데 핏도 좋아요 팔은 좀 긴편이라 저는 조금 접었어요 요즘 날씨에 딱 좋습니당
+[2024-07-19T07:48:18.090+0000] {logging_mixin.py:188} INFO - review_id: LV.5 영빈각
+[2024-07-19T07:48:18.143+0000] {logging_mixin.py:188} INFO - weight_height_gender: 남성 · 180cm · 70kg
+[2024-07-19T07:48:18.197+0000] {logging_mixin.py:188} INFO - top_size: 보통이에요
+[2024-07-19T07:48:18.253+0000] {logging_mixin.py:188} INFO - brightness_comment: 보통이에요
+[2024-07-19T07:48:18.319+0000] {logging_mixin.py:188} INFO - color_comment: 선명해요
+[2024-07-19T07:48:18.390+0000] {logging_mixin.py:188} INFO - thickness_comment: 두꺼워요
+[2024-07-19T07:48:18.435+0000] {logging_mixin.py:188} INFO - purchased_product_id: https://www.musinsa.com/app/goods/1599217/0
+[2024-07-19T07:48:18.470+0000] {logging_mixin.py:188} INFO - purchased_size: L
+[2024-07-19T07:48:18.506+0000] {logging_mixin.py:188} INFO - comment: 안감이 살짝 까끌하긴 하지만 긴팔티 입고 입으면 거괜찮을거 같고 꼭 있어야 할 옷 인거 같네요 디테일도 좋고 만족해요
+[2024-07-19T07:48:18.506+0000] {logging_mixin.py:188} INFO - {'product_id': 'top2', 'product_name': '램스울 크루넥 오버 니트 (연차콜)', 'category': '상의', 'price': '34,738 ~ 37,800원', 'image_url': 'https://image.msscdn.net/images/goods_img/20200912/1599217/1599217_1_500.jpg', 'description': 'https://www.musinsa.com/app/goods/1599217', 'size': ['S', 'M', 'L'], 'reviews': [{'weight_height_gender': '남성 · 177cm · 55kg', 'review_id': 'LV.5 Jnleee', 'top_size': '커요', 'brightness_comment': '보통이에요', 'color_comment': '보통이에요', 'thickness_comment': '보통이에요', 'purchased_product_id': 'https://www.musinsa.com/app/goods/1599217/0', 'purchased_size': 'M', 'comment': '사이즈 M\n정사이즈에서 살짝 오버하게 떨어질거 예상했습니다\n생각보다 기네요 그래도 오버핏 떨어져서 주름지는게 진짜 이쁘네요 마른 분들은 이거 하나만 걸쳐도\n이쁠것 같습니다'}, {'weight_height_gender': '여성 · 158cm · 43kg', 'review_id': 'LV.5 최신멜란지슬링백', 'top_size': '커요', 'brightness_comment': '보통이에요', 'color_comment': '보통이에요', 'thickness_comment': '보통이에요', 'purchased_product_id': 'https://www.musinsa.com/app/goods/1599217/0', 'purchased_size': 'S', 'comment': '냄새도 살짝 나고 까슬까슬하지만 막 신경쓰일정도는 아니구용 일단 색이 너무 예뻐요.. 핏도 예뻐... 이거 차콜 웨않사.. 너무 예뽀용'}, {'weight_height_gender': '여성 · 160cm · 150kg', 'review_id': 'LV.6 hzxxz', 'top_size': '커요', 'brightness_comment': '보통이에요', 'color_comment': '선명해요', 'thickness_comment': '두꺼워요', 'purchased_product_id': 'https://www.musinsa.com/app/goods/1599217/0', 'purchased_size': 'S', 'comment': '예쁜데 s사이즈도 커여 까칠까칠해서 레이어드해서 입어야합니댜'}, {'weight_height_gender': '남성 · 183cm · 67kg', 'review_id': 'LV.5 우파란', 'top_size': '커요', 'brightness_comment': '보통이에요', 'color_comment': '선명해요', 'thickness_comment': '보통이에요', 'purchased_product_id': 'https://www.musinsa.com/app/goods/1599217/0', 'purchased_size': 'L', 'comment': '오버사이즈를 좋아해서 큰 사이즈로 시켰는데 살짝 긴\n감이 있긴 하지만 안쪽으로 살짝 말아서 옷핀으로 꽂고 다녀도 좋았습니다 ! ( 안하고 다녀도 넉넉한 기장감이라 안에 흰 티셔츠 입고, 회색 츄리닝 바지 입어도 괜찮았어요)\n\n개인적으로는 맨 살에 입어도 별로 까끌거리거나 불편하진 않았습니다 👍🏻'}, {'weight_height_gender': '남성 · 173cm · 83kg', 'review_id': 'LV.4 육이아부지', 'top_size': '커요', 'brightness_comment': '보통이에요', 'color_comment': '보통이에요', 'thickness_comment': '두꺼워요', 'purchased_product_id': 'https://www.musinsa.com/app/goods/1599217/0', 'purchased_size': 'L', 'comment': '옷은 큼직하고 이쁩니다 새옷냄새가 많이 나요 몇번 세탁해야 냄새 빠집니다'}, {'weight_height_gender': '여성 · 161cm · 53kg', 'review_id': 'LV.7 문꾸엑', 'top_size': '보통이에요', 'brightness_comment': '보통이에요', 'color_comment': '보통이에요', 'thickness_comment': '보통이에요', 'purchased_product_id': 'https://www.musinsa.com/app/goods/1599217/0', 'purchased_size': 'S', 'comment': '디자인 무난하고 좀 거칠긴 한데 핏도 좋아요 팔은 좀 긴편이라 저는 조금 접었어요 요즘 날씨에 딱 좋습니당'}, {'weight_height_gender': '남성 · 180cm · 70kg', 'review_id': 'LV.5 영빈각', 'top_size': '보통이에요', 'brightness_comment': '보통이에요', 'color_comment': '선명해요', 'thickness_comment': '두꺼워요', 'purchased_product_id': 'https://www.musinsa.com/app/goods/1599217/0', 'purchased_size': 'L', 'comment': '안감이 살짝 까끌하긴 하지만 긴팔티 입고 입으면 거괜찮을거 같고 꼭 있어야 할 옷 인거 같네요 디테일도 좋고 만족해요'}]}
+[2024-07-19T07:48:18.507+0000] {logging_mixin.py:188} INFO - Processed 2 products
+[2024-07-19T07:48:29.017+0000] {logging_mixin.py:188} INFO - review_id: LV.5 과제가몰려온다
+[2024-07-19T07:48:49.155+0000] {logging_mixin.py:188} INFO - Review information not found for element index: 3
+[2024-07-19T07:48:49.212+0000] {logging_mixin.py:188} INFO - review_id: LV.5 딸기라떼가조아
+[2024-07-19T07:48:49.267+0000] {logging_mixin.py:188} INFO - weight_height_gender: 남성 · 185cm · 65kg
+[2024-07-19T07:48:49.336+0000] {logging_mixin.py:188} INFO - top_size: 보통이에요
+[2024-07-19T07:48:49.376+0000] {logging_mixin.py:188} INFO - brightness_comment: 밝아요
+[2024-07-19T07:48:49.416+0000] {logging_mixin.py:188} INFO - color_comment: 선명해요
+[2024-07-19T07:48:49.463+0000] {logging_mixin.py:188} INFO - thickness_comment: 보통이에요
+[2024-07-19T07:48:49.505+0000] {logging_mixin.py:188} INFO - purchased_product_id: https://www.musinsa.com/app/goods/2139143/0
+[2024-07-19T07:48:49.543+0000] {logging_mixin.py:188} INFO - purchased_size: BEIGE/L
+[2024-07-19T07:48:49.585+0000] {logging_mixin.py:188} INFO - comment: 이너로 활용하기에 범용성이 뛰어나요 색감도 따뜻하네요
+[2024-07-19T07:48:49.628+0000] {logging_mixin.py:188} INFO - review_id: LV.6 동르륵
+[2024-07-19T07:48:49.674+0000] {logging_mixin.py:188} INFO - weight_height_gender: 남성 · 184cm · 66kg
+[2024-07-19T07:48:49.707+0000] {logging_mixin.py:188} INFO - top_size: 보통이에요
+[2024-07-19T07:48:49.749+0000] {logging_mixin.py:188} INFO - brightness_comment: 보통이에요
+[2024-07-19T07:48:49.798+0000] {logging_mixin.py:188} INFO - color_comment: 보통이에요
+[2024-07-19T07:48:49.835+0000] {logging_mixin.py:188} INFO - thickness_comment: 보통이에요
+[2024-07-19T07:48:49.873+0000] {logging_mixin.py:188} INFO - purchased_product_id: https://www.musinsa.com/app/goods/2139143/0
+[2024-07-19T07:48:49.918+0000] {logging_mixin.py:188} INFO - purchased_size: BLACK/L
+[2024-07-19T07:48:49.957+0000] {logging_mixin.py:188} INFO - comment: 처음 산 터틀넥인데 기본 디자인에 깔끔하고 촉감 좋네요 체형보완 잘 되는 건 모르겠네요
+[2024-07-19T07:48:49.990+0000] {logging_mixin.py:188} INFO - review_id: LV.4 J.M.J
+[2024-07-19T07:48:50.024+0000] {logging_mixin.py:188} INFO - weight_height_gender: 남성 · 175cm · 68kg
+[2024-07-19T07:48:50.065+0000] {logging_mixin.py:188} INFO - top_size: 보통이에요
+[2024-07-19T07:48:50.158+0000] {logging_mixin.py:188} INFO - brightness_comment: 보통이에요
+[2024-07-19T07:48:50.192+0000] {logging_mixin.py:188} INFO - color_comment: 보통이에요
+[2024-07-19T07:48:50.231+0000] {logging_mixin.py:188} INFO - thickness_comment: 보통이에요
+[2024-07-19T07:48:50.263+0000] {logging_mixin.py:188} INFO - purchased_product_id: https://www.musinsa.com/app/goods/2139143/0
+[2024-07-19T07:48:50.300+0000] {logging_mixin.py:188} INFO - purchased_size: BLACK/L
+[2024-07-19T07:48:50.331+0000] {logging_mixin.py:188} INFO - comment: 핏 너무 예뻐요 이 가격대에 이런 퀄리티인게 믿기지않네요
+[2024-07-19T07:48:50.365+0000] {logging_mixin.py:188} INFO - review_id: LV.4 Middle__gray
+[2024-07-19T07:48:50.401+0000] {logging_mixin.py:188} INFO - weight_height_gender: 남성 · 181cm · 75kg
+[2024-07-19T07:48:50.432+0000] {logging_mixin.py:188} INFO - top_size: 보통이에요
+[2024-07-19T07:48:50.473+0000] {logging_mixin.py:188} INFO - brightness_comment: 보통이에요
+[2024-07-19T07:48:50.523+0000] {logging_mixin.py:188} INFO - color_comment: 보통이에요
+[2024-07-19T07:48:50.577+0000] {logging_mixin.py:188} INFO - thickness_comment: 보통이에요
+[2024-07-19T07:48:50.607+0000] {logging_mixin.py:188} INFO - purchased_product_id: https://www.musinsa.com/app/goods/2139143/0
+[2024-07-19T07:48:50.636+0000] {logging_mixin.py:188} INFO - purchased_size: OFF WHITE/L
+[2024-07-19T07:48:50.663+0000] {logging_mixin.py:188} INFO - comment: 깔끔한 화이트 터틀넥입니다. 어느 코디여도 잘 어울릴 터틀넥입니다.
+[2024-07-19T07:48:50.694+0000] {logging_mixin.py:188} INFO - review_id: LV.5 giho08
+[2024-07-19T07:48:50.725+0000] {logging_mixin.py:188} INFO - weight_height_gender: 남성 · 171cm · 60kg
+[2024-07-19T07:48:50.756+0000] {logging_mixin.py:188} INFO - top_size: 보통이에요
+[2024-07-19T07:48:50.784+0000] {logging_mixin.py:188} INFO - brightness_comment: 어두워요
+[2024-07-19T07:48:50.813+0000] {logging_mixin.py:188} INFO - color_comment: 보통이에요
+[2024-07-19T07:48:50.846+0000] {logging_mixin.py:188} INFO - thickness_comment: 얇아요
+[2024-07-19T07:48:50.874+0000] {logging_mixin.py:188} INFO - purchased_product_id: https://www.musinsa.com/app/goods/2139143/0
+[2024-07-19T07:48:50.903+0000] {logging_mixin.py:188} INFO - purchased_size: BLACK/M
+[2024-07-19T07:48:50.930+0000] {logging_mixin.py:188} INFO - comment: 모크넥을 이미 입어봐서 촉감이나 핏이 마음에 들었어요 ㅎㅎ 단품으로 입는 것 보다는 니트안에 이너로 입는게 더 이쁘다고 생각됩니다
+[2024-07-19T07:48:50.964+0000] {logging_mixin.py:188} INFO - review_id: LV.7 오징어병장
+[2024-07-19T07:48:51.013+0000] {logging_mixin.py:188} INFO - weight_height_gender: 남성 · 181cm · 72kg
+[2024-07-19T07:48:51.077+0000] {logging_mixin.py:188} INFO - top_size: 보통이에요
+[2024-07-19T07:48:51.129+0000] {logging_mixin.py:188} INFO - brightness_comment: 보통이에요
+[2024-07-19T07:48:51.182+0000] {logging_mixin.py:188} INFO - color_comment: 보통이에요
+[2024-07-19T07:48:51.228+0000] {logging_mixin.py:188} INFO - thickness_comment: 보통이에요
+[2024-07-19T07:48:51.266+0000] {logging_mixin.py:188} INFO - purchased_product_id: https://www.musinsa.com/app/goods/2139143/0
+[2024-07-19T07:48:51.320+0000] {logging_mixin.py:188} INFO - purchased_size: BLACK/XL
+[2024-07-19T07:48:51.377+0000] {logging_mixin.py:188} INFO - comment: 모크넥이랑 실측은 같은데,,, 어깨는 더 큰느낌이에요.
+[2024-07-19T07:48:51.378+0000] {logging_mixin.py:188} INFO - {'product_id': 'top3', 'product_name': '[드로우핏X깡스타일리스트] 터틀넥 니트 티셔츠', 'category': '상의', 'price': '19,574 ~ 23,900원', 'image_url': 'https://image.msscdn.net/images/goods_img/20210917/2139143/2139143_17150672841804_500.jpg', 'description': 'https://www.musinsa.com/app/goods/2139143', 'size': ['M', 'L', 'XL', 'XXL'], 'reviews': [{'weight_height_gender': '남성 · 185cm · 65kg', 'review_id': 'LV.5 딸기라떼가조아', 'top_size': '보통이에요', 'brightness_comment': '밝아요', 'color_comment': '선명해요', 'thickness_comment': '보통이에요', 'purchased_product_id': 'https://www.musinsa.com/app/goods/2139143/0', 'purchased_size': 'BEIGE/L', 'comment': '이너로 활용하기에 범용성이 뛰어나요 색감도 따뜻하네요'}, {'weight_height_gender': '남성 · 184cm · 66kg', 'review_id': 'LV.6 동르륵', 'top_size': '보통이에요', 'brightness_comment': '보통이에요', 'color_comment': '보통이에요', 'thickness_comment': '보통이에요', 'purchased_product_id': 'https://www.musinsa.com/app/goods/2139143/0', 'purchased_size': 'BLACK/L', 'comment': '처음 산 터틀넥인데 기본 디자인에 깔끔하고 촉감 좋네요 체형보완 잘 되는 건 모르겠네요'}, {'weight_height_gender': '남성 · 175cm · 68kg', 'review_id': 'LV.4 J.M.J', 'top_size': '보통이에요', 'brightness_comment': '보통이에요', 'color_comment': '보통이에요', 'thickness_comment': '보통이에요', 'purchased_product_id': 'https://www.musinsa.com/app/goods/2139143/0', 'purchased_size': 'BLACK/L', 'comment': '핏 너무 예뻐요 이 가격대에 이런 퀄리티인게 믿기지않네요'}, {'weight_height_gender': '남성 · 181cm · 75kg', 'review_id': 'LV.4 Middle__gray', 'top_size': '보통이에요', 'brightness_comment': '보통이에요', 'color_comment': '보통이에요', 'thickness_comment': '보통이에요', 'purchased_product_id': 'https://www.musinsa.com/app/goods/2139143/0', 'purchased_size': 'OFF WHITE/L', 'comment': '깔끔한 화이트 터틀넥입니다. 어느 코디여도 잘 어울릴 터틀넥입니다.'}, {'weight_height_gender': '남성 · 171cm · 60kg', 'review_id': 'LV.5 giho08', 'top_size': '보통이에요', 'brightness_comment': '어두워요', 'color_comment': '보통이에요', 'thickness_comment': '얇아요', 'purchased_product_id': 'https://www.musinsa.com/app/goods/2139143/0', 'purchased_size': 'BLACK/M', 'comment': '모크넥을 이미 입어봐서 촉감이나 핏이 마음에 들었어요 ㅎㅎ 단품으로 입는 것 보다는 니트안에 이너로 입는게 더 이쁘다고 생각됩니다'}, {'weight_height_gender': '남성 · 181cm · 72kg', 'review_id': 'LV.7 오징어병장', 'top_size': '보통이에요', 'brightness_comment': '보통이에요', 'color_comment': '보통이에요', 'thickness_comment': '보통이에요', 'purchased_product_id': 'https://www.musinsa.com/app/goods/2139143/0', 'purchased_size': 'BLACK/XL', 'comment': '모크넥이랑 실측은 같은데,,, 어깨는 더 큰느낌이에요.'}]}
+[2024-07-19T07:48:51.378+0000] {logging_mixin.py:188} INFO - Processed 3 products
+[2024-07-19T07:49:01.040+0000] {logging_mixin.py:188} INFO - review_id: LV.6 gyongst
+[2024-07-19T07:49:21.383+0000] {logging_mixin.py:188} INFO - Review information not found for element index: 3
+[2024-07-19T07:49:21.434+0000] {logging_mixin.py:188} INFO - review_id: LV.5 YJO3
+[2024-07-19T07:49:21.484+0000] {logging_mixin.py:188} INFO - weight_height_gender: 남성 · 174cm · 70kg
+[2024-07-19T07:49:21.534+0000] {logging_mixin.py:188} INFO - top_size: 보통이에요
+[2024-07-19T07:49:21.596+0000] {logging_mixin.py:188} INFO - brightness_comment: 보통이에요
+[2024-07-19T07:49:21.648+0000] {logging_mixin.py:188} INFO - color_comment: 보통이에요
+[2024-07-19T07:49:21.700+0000] {logging_mixin.py:188} INFO - thickness_comment: 보통이에요
+[2024-07-19T07:49:21.739+0000] {logging_mixin.py:188} INFO - purchased_product_id: https://www.musinsa.com/app/goods/1027576/0
+[2024-07-19T07:49:21.795+0000] {logging_mixin.py:188} INFO - purchased_size: S
+[2024-07-19T07:49:21.859+0000] {logging_mixin.py:188} INFO - comment: 작년에 인디고 블루 색상 샀다가 핏이 잘 맞아서 화이트 색상으로 하나 더 구매했습니다 개인적으로 인디고 블루가 더 예쁜 것 같습니다
+가방 : 칼하트 토트백
+하의: 커버낫 티셔츠
+[2024-07-19T07:49:21.916+0000] {logging_mixin.py:188} INFO - review_id: LV.5 광탈맨
+[2024-07-19T07:49:21.978+0000] {logging_mixin.py:188} INFO - weight_height_gender: 남성 · 185cm · 68kg
+[2024-07-19T07:49:22.036+0000] {logging_mixin.py:188} INFO - top_size: 보통이에요
+[2024-07-19T07:49:22.084+0000] {logging_mixin.py:188} INFO - brightness_comment: 밝아요
+[2024-07-19T07:49:22.134+0000] {logging_mixin.py:188} INFO - color_comment: 선명해요
+[2024-07-19T07:49:22.197+0000] {logging_mixin.py:188} INFO - thickness_comment: 얇아요
+[2024-07-19T07:49:22.260+0000] {logging_mixin.py:188} INFO - purchased_product_id: https://www.musinsa.com/app/goods/1027576/0
+[2024-07-19T07:49:22.318+0000] {logging_mixin.py:188} INFO - purchased_size: XL
+[2024-07-19T07:49:22.371+0000] {logging_mixin.py:188} INFO - comment: 비바스튜디오 반팔티가 항상 그렇지만 참 넉넉하고 편합니다 딱 그 자연스러운?
+[2024-07-19T07:49:22.449+0000] {logging_mixin.py:188} INFO - review_id: LV.4 Boring.
+[2024-07-19T07:49:22.517+0000] {logging_mixin.py:188} INFO - weight_height_gender: 여성 · 163cm · 52kg
+[2024-07-19T07:49:22.586+0000] {logging_mixin.py:188} INFO - top_size: 보통이에요
+[2024-07-19T07:49:22.653+0000] {logging_mixin.py:188} INFO - brightness_comment: 보통이에요
+[2024-07-19T07:49:22.707+0000] {logging_mixin.py:188} INFO - color_comment: 보통이에요
+[2024-07-19T07:49:22.747+0000] {logging_mixin.py:188} INFO - thickness_comment: 보통이에요
+[2024-07-19T07:49:22.795+0000] {logging_mixin.py:188} INFO - purchased_product_id: https://www.musinsa.com/app/goods/1027576/0
+[2024-07-19T07:49:22.868+0000] {logging_mixin.py:188} INFO - purchased_size: M
+[2024-07-19T07:49:22.917+0000] {logging_mixin.py:188} INFO - comment: 여성분들 사이즈 궁금해하실 것 같아서 공유합니다.
+저는 더 낙낙하게 입고싶었는데 생각보다 옷이 크지 않아요!!
+라지사이즈 했으면 어깨가 더 툭 떨어졌을 것 같다는 생각이 듭니다만 원단도 탄탄하고 맘에들어요!!
+[2024-07-19T07:49:23.031+0000] {logging_mixin.py:188} INFO - review_id: LV.6 uihwan
+[2024-07-19T07:49:23.106+0000] {logging_mixin.py:188} INFO - weight_height_gender: 남성 · 179cm · 72kg
+[2024-07-19T07:49:23.144+0000] {logging_mixin.py:188} INFO - top_size: 커요
+[2024-07-19T07:49:23.174+0000] {logging_mixin.py:188} INFO - brightness_comment: 보통이에요
+[2024-07-19T07:49:23.211+0000] {logging_mixin.py:188} INFO - color_comment: 보통이에요
+[2024-07-19T07:49:23.265+0000] {logging_mixin.py:188} INFO - thickness_comment: 보통이에요
+[2024-07-19T07:49:23.323+0000] {logging_mixin.py:188} INFO - purchased_product_id: https://www.musinsa.com/app/goods/1027576/0
+[2024-07-19T07:49:23.366+0000] {logging_mixin.py:188} INFO - purchased_size: L
+[2024-07-19T07:49:23.398+0000] {logging_mixin.py:188} INFO - comment: 원래 상의 105입는데 100사이즈 시키니까 오버하게 딱 맞네요~추천함니다~
+[2024-07-19T07:49:23.428+0000] {logging_mixin.py:188} INFO - review_id: LV.5 남강바둑이
+[2024-07-19T07:49:23.462+0000] {logging_mixin.py:188} INFO - weight_height_gender: 여성 · 165cm · 52kg
+[2024-07-19T07:49:23.497+0000] {logging_mixin.py:188} INFO - top_size: 커요
+[2024-07-19T07:49:23.528+0000] {logging_mixin.py:188} INFO - brightness_comment: 보통이에요
+[2024-07-19T07:49:23.558+0000] {logging_mixin.py:188} INFO - color_comment: 보통이에요
+[2024-07-19T07:49:23.591+0000] {logging_mixin.py:188} INFO - thickness_comment: 보통이에요
+[2024-07-19T07:49:23.632+0000] {logging_mixin.py:188} INFO - purchased_product_id: https://www.musinsa.com/app/goods/1027576/0
+[2024-07-19T07:49:23.677+0000] {logging_mixin.py:188} INFO - purchased_size: S
+[2024-07-19T07:49:23.725+0000] {logging_mixin.py:188} INFO - comment: M을 할까 하다가 후기들 보고 S로 했는데 완전 만족스러워요:) 저랑 키 비슷하신 분들은 S로 해도 충분히 크게 입을 수 있을 것 같아요! 흰옷이라 많이 비치진 않을까 걱정했는데 옷 두께가 너무 얇지도 않고 그렇다고 너무 두껍지도 않아서 잘 비치지도 않고 덥지도 않을 것 같네요. 제가 좋아하는 재질이에요! 사진엔 청바지를 입고 있지만 학원이나 집 앞에 잠시 나갈 때 대충 반바지 위에 걸쳐도 예쁠 거 같아요! 편하기도 정말 편하구요. 정말 마음에 들어요! 예쁘게 잘 입겠습니다🥰
+[2024-07-19T07:49:23.757+0000] {logging_mixin.py:188} INFO - review_id: LV.3 식희동
+[2024-07-19T07:49:23.807+0000] {logging_mixin.py:188} INFO - weight_height_gender: 여성 · 163cm · 65kg
+[2024-07-19T07:49:23.840+0000] {logging_mixin.py:188} INFO - top_size: 커요
+[2024-07-19T07:49:23.877+0000] {logging_mixin.py:188} INFO - brightness_comment: 밝아요
+[2024-07-19T07:49:23.915+0000] {logging_mixin.py:188} INFO - color_comment: 선명해요
+[2024-07-19T07:49:23.957+0000] {logging_mixin.py:188} INFO - thickness_comment: 보통이에요
+[2024-07-19T07:49:23.995+0000] {logging_mixin.py:188} INFO - purchased_product_id: https://www.musinsa.com/app/goods/1027576/0
+[2024-07-19T07:49:24.024+0000] {logging_mixin.py:188} INFO - purchased_size: M
+[2024-07-19T07:49:24.056+0000] {logging_mixin.py:188} INFO - comment: 쨍한 흰색이 마음에 들고 디자인도 매우 마음에 듭니다!
+[2024-07-19T07:49:24.057+0000] {logging_mixin.py:188} INFO - {'product_id': 'top4', 'product_name': 'LOCATION SHORT SLEEVE [WHITE]', 'category': '상의', 'price': '21,505 ~ 23,400원', 'image_url': 'https://image.msscdn.net/images/goods_img/20190425/1027576/1027576_4_500.jpg', 'description': 'https://www.musinsa.com/app/goods/1027576', 'size': ['XS', 'S', 'M', 'L', 'XL'], 'reviews': [{'weight_height_gender': '남성 · 174cm · 70kg', 'review_id': 'LV.5 YJO3', 'top_size': '보통이에요', 'brightness_comment': '보통이에요', 'color_comment': '보통이에요', 'thickness_comment': '보통이에요', 'purchased_product_id': 'https://www.musinsa.com/app/goods/1027576/0', 'purchased_size': 'S', 'comment': '작년에 인디고 블루 색상 샀다가 핏이 잘 맞아서 화이트 색상으로 하나 더 구매했습니다 개인적으로 인디고 블루가 더 예쁜 것 같습니다\n가방 : 칼하트 토트백\n하의: 커버낫 티셔츠'}, {'weight_height_gender': '남성 · 185cm · 68kg', 'review_id': 'LV.5 광탈맨', 'top_size': '보통이에요', 'brightness_comment': '밝아요', 'color_comment': '선명해요', 'thickness_comment': '얇아요', 'purchased_product_id': 'https://www.musinsa.com/app/goods/1027576/0', 'purchased_size': 'XL', 'comment': '비바스튜디오 반팔티가 항상 그렇지만 참 넉넉하고 편합니다 딱 그 자연스러운?'}, {'weight_height_gender': '여성 · 163cm · 52kg', 'review_id': 'LV.4 Boring.', 'top_size': '보통이에요', 'brightness_comment': '보통이에요', 'color_comment': '보통이에요', 'thickness_comment': '보통이에요', 'purchased_product_id': 'https://www.musinsa.com/app/goods/1027576/0', 'purchased_size': 'M', 'comment': '여성분들 사이즈 궁금해하실 것 같아서 공유합니다.\n저는 더 낙낙하게 입고싶었는데 생각보다 옷이 크지 않아요!!\n라지사이즈 했으면 어깨가 더 툭 떨어졌을 것 같다는 생각이 듭니다만 원단도 탄탄하고 맘에들어요!!'}, {'weight_height_gender': '남성 · 179cm · 72kg', 'review_id': 'LV.6 uihwan', 'top_size': '커요', 'brightness_comment': '보통이에요', 'color_comment': '보통이에요', 'thickness_comment': '보통이에요', 'purchased_product_id': 'https://www.musinsa.com/app/goods/1027576/0', 'purchased_size': 'L', 'comment': '원래 상의 105입는데 100사이즈 시키니까 오버하게 딱 맞네요~추천함니다~'}, {'weight_height_gender': '여성 · 165cm · 52kg', 'review_id': 'LV.5 남강바둑이', 'top_size': '커요', 'brightness_comment': '보통이에요', 'color_comment': '보통이에요', 'thickness_comment': '보통이에요', 'purchased_product_id': 'https://www.musinsa.com/app/goods/1027576/0', 'purchased_size': 'S', 'comment': 'M을 할까 하다가 후기들 보고 S로 했는데 완전 만족스러워요:) 저랑 키 비슷하신 분들은 S로 해도 충분히 크게 입을 수 있을 것 같아요! 흰옷이라 많이 비치진 않을까 걱정했는데 옷 두께가 너무 얇지도 않고 그렇다고 너무 두껍지도 않아서 잘 비치지도 않고 덥지도 않을 것 같네요. 제가 좋아하는 재질이에요! 사진엔 청바지를 입고 있지만 학원이나 집 앞에 잠시 나갈 때 대충 반바지 위에 걸쳐도 예쁠 거 같아요! 편하기도 정말 편하구요. 정말 마음에 들어요! 예쁘게 잘 입겠습니다🥰'}, {'weight_height_gender': '여성 · 163cm · 65kg', 'review_id': 'LV.3 식희동', 'top_size': '커요', 'brightness_comment': '밝아요', 'color_comment': '선명해요', 'thickness_comment': '보통이에요', 'purchased_product_id': 'https://www.musinsa.com/app/goods/1027576/0', 'purchased_size': 'M', 'comment': '쨍한 흰색이 마음에 들고 디자인도 매우 마음에 듭니다!'}]}
+[2024-07-19T07:49:24.057+0000] {logging_mixin.py:188} INFO - Processed 4 products
+[2024-07-19T07:49:33.625+0000] {logging_mixin.py:188} INFO - review_id: LV.5 b_eom_k
+[2024-07-19T07:49:33.663+0000] {logging_mixin.py:188} INFO - weight_height_gender: 남성 · 184cm · 85kg
+[2024-07-19T07:49:33.699+0000] {logging_mixin.py:188} INFO - top_size: 보통이에요
+[2024-07-19T07:49:33.732+0000] {logging_mixin.py:188} INFO - brightness_comment: 보통이에요
+[2024-07-19T07:49:33.766+0000] {logging_mixin.py:188} INFO - color_comment: 보통이에요
+[2024-07-19T07:49:33.800+0000] {logging_mixin.py:188} INFO - thickness_comment: 보통이에요
+[2024-07-19T07:49:33.834+0000] {logging_mixin.py:188} INFO - purchased_product_id: https://www.musinsa.com/app/goods/746276/0
+[2024-07-19T07:49:33.870+0000] {logging_mixin.py:188} INFO - purchased_size: XXL
+[2024-07-19T07:49:33.904+0000] {logging_mixin.py:188} INFO - comment: 요즘들어 옷이 관심이 많아진 고등학생입니다 지금커버낫 반팔만 4개 연속으로 샀는데 정말 기본인로고핏 반팔에 깔끔합니다 배송도 빨리오고 특히 블랙에 화이트 너무 이뻐요!! 핏도 이쁘고 구매하세요 진짜 추천드립니다
+[2024-07-19T07:49:33.934+0000] {logging_mixin.py:188} INFO - review_id: LV.5 마음만은180cm
+[2024-07-19T07:49:33.964+0000] {logging_mixin.py:188} INFO - weight_height_gender: 남성 · 172cm · 61kg
+[2024-07-19T07:49:33.993+0000] {logging_mixin.py:188} INFO - top_size: 보통이에요
+[2024-07-19T07:49:34.023+0000] {logging_mixin.py:188} INFO - brightness_comment: 보통이에요
+[2024-07-19T07:49:34.058+0000] {logging_mixin.py:188} INFO - color_comment: 보통이에요
+[2024-07-19T07:49:34.099+0000] {logging_mixin.py:188} INFO - thickness_comment: 보통이에요
+[2024-07-19T07:49:34.148+0000] {logging_mixin.py:188} INFO - purchased_product_id: https://www.musinsa.com/app/goods/746276/0
+[2024-07-19T07:49:34.182+0000] {logging_mixin.py:188} INFO - purchased_size: L
+[2024-07-19T07:49:34.214+0000] {logging_mixin.py:188} INFO - comment: 적당한 세미오버핏에 비치지도 않아서 자주 애용할것 같아요
+[2024-07-19T07:49:34.247+0000] {logging_mixin.py:188} INFO - review_id: LV.6 마이마이08
+[2024-07-19T07:49:34.293+0000] {logging_mixin.py:188} INFO - weight_height_gender: 여성 · 154cm · 46kg
+[2024-07-19T07:49:34.341+0000] {logging_mixin.py:188} INFO - top_size: 보통이에요
+[2024-07-19T07:49:34.392+0000] {logging_mixin.py:188} INFO - brightness_comment: 어두워요
+[2024-07-19T07:49:34.442+0000] {logging_mixin.py:188} INFO - color_comment: 보통이에요
+[2024-07-19T07:49:34.491+0000] {logging_mixin.py:188} INFO - thickness_comment: 두꺼워요
+[2024-07-19T07:49:34.528+0000] {logging_mixin.py:188} INFO - purchased_product_id: https://www.musinsa.com/app/goods/746276/0
+[2024-07-19T07:49:34.589+0000] {logging_mixin.py:188} INFO - purchased_size: S
+[2024-07-19T07:49:34.625+0000] {logging_mixin.py:188} INFO - comment: 사이즈가 맞고 색깔도 마음에 들어요. 품질이 좋아서 여름에 입기가 시원해요.
+[2024-07-19T07:49:34.656+0000] {logging_mixin.py:188} INFO - review_id: LV.7 덕구눈아
+[2024-07-19T07:49:34.686+0000] {logging_mixin.py:188} INFO - weight_height_gender: 여성 · 163cm · 47kg
+[2024-07-19T07:49:34.716+0000] {logging_mixin.py:188} INFO - top_size: 보통이에요
+[2024-07-19T07:49:34.747+0000] {logging_mixin.py:188} INFO - brightness_comment: 어두워요
+[2024-07-19T07:49:34.777+0000] {logging_mixin.py:188} INFO - color_comment: 선명해요
+[2024-07-19T07:49:34.810+0000] {logging_mixin.py:188} INFO - thickness_comment: 보통이에요
+[2024-07-19T07:49:34.842+0000] {logging_mixin.py:188} INFO - purchased_product_id: https://www.musinsa.com/app/goods/746276/0
+[2024-07-19T07:49:34.878+0000] {logging_mixin.py:188} INFO - purchased_size: WS
+[2024-07-19T07:49:34.912+0000] {logging_mixin.py:188} INFO - comment: 산지 꽤 되었는데 한 번에 후기 올릴려구 이제 올려요 ㅋㅋ큐ㅠ
+크게 입는 것보다 딱 맞게 입고 싶어서 고른 옷인데 올 여름 이것만 입었어요!
+몇 번이나 빨았는데도 짱짱함은 미쳤어여 진짜
+머리 똥 아님니다,,
+[2024-07-19T07:49:34.945+0000] {logging_mixin.py:188} INFO - review_id: LV.4 _jongjin_
+[2024-07-19T07:49:34.981+0000] {logging_mixin.py:188} INFO - weight_height_gender: 남성 · 173cm · 61kg
+[2024-07-19T07:49:35.010+0000] {logging_mixin.py:188} INFO - top_size: 보통이에요
+[2024-07-19T07:49:35.042+0000] {logging_mixin.py:188} INFO - brightness_comment: 보통이에요
+[2024-07-19T07:49:35.073+0000] {logging_mixin.py:188} INFO - color_comment: 선명해요
+[2024-07-19T07:49:35.103+0000] {logging_mixin.py:188} INFO - thickness_comment: 보통이에요
+[2024-07-19T07:49:35.135+0000] {logging_mixin.py:188} INFO - purchased_product_id: https://www.musinsa.com/app/goods/746276/0
+[2024-07-19T07:49:35.191+0000] {logging_mixin.py:188} INFO - purchased_size: S
+[2024-07-19T07:49:35.241+0000] {logging_mixin.py:188} INFO - comment: 로고프린팅된반팔티라서 무난하게 입기 좋은거같아요 !!
+[2024-07-19T07:49:35.290+0000] {logging_mixin.py:188} INFO - review_id: LV.7 푸딩푸딩1
+[2024-07-19T07:49:35.329+0000] {logging_mixin.py:188} INFO - weight_height_gender: 여성 · 161cm · 55kg
+[2024-07-19T07:49:35.371+0000] {logging_mixin.py:188} INFO - top_size: 커요
+[2024-07-19T07:49:35.422+0000] {logging_mixin.py:188} INFO - brightness_comment: 어두워요
+[2024-07-19T07:49:35.475+0000] {logging_mixin.py:188} INFO - color_comment: 선명해요
+[2024-07-19T07:49:35.534+0000] {logging_mixin.py:188} INFO - thickness_comment: 보통이에요
+[2024-07-19T07:49:35.580+0000] {logging_mixin.py:188} INFO - purchased_product_id: https://www.musinsa.com/app/goods/746276/0
+[2024-07-19T07:49:35.621+0000] {logging_mixin.py:188} INFO - purchased_size: XL
+[2024-07-19T07:49:35.665+0000] {logging_mixin.py:188} INFO - comment: 느무이뻐유 아주 편하고 넉넉하니 좋구만유 강추래유
+[2024-07-19T07:49:35.718+0000] {logging_mixin.py:188} INFO - review_id: LV.4 그대로좋아해
+[2024-07-19T07:49:35.766+0000] {logging_mixin.py:188} INFO - weight_height_gender: 남성 · 184cm · 70kg
+[2024-07-19T07:49:35.832+0000] {logging_mixin.py:188} INFO - top_size: 보통이에요
+[2024-07-19T07:49:35.878+0000] {logging_mixin.py:188} INFO - brightness_comment: 보통이에요
+[2024-07-19T07:49:35.940+0000] {logging_mixin.py:188} INFO - color_comment: 선명해요
+[2024-07-19T07:49:35.995+0000] {logging_mixin.py:188} INFO - thickness_comment: 보통이에요
+[2024-07-19T07:49:36.034+0000] {logging_mixin.py:188} INFO - purchased_product_id: https://www.musinsa.com/app/goods/746276/0
+[2024-07-19T07:49:36.073+0000] {logging_mixin.py:188} INFO - purchased_size: XL
+[2024-07-19T07:49:36.128+0000] {logging_mixin.py:188} INFO - comment: 아무 바지에나 다 잘어울리는것 같아요 딱 정핏이라 오버핏 기대하시면 더 큰거 구매하셔야할것 같아요
+[2024-07-19T07:49:36.129+0000] {logging_mixin.py:188} INFO - {'product_id': 'top5', 'product_name': '어센틱 로고 티셔츠 블랙', 'category': '상의', 'price': '26,181 ~ 27,300원', 'image_url': 'https://image.msscdn.net/images/goods_img/20180330/746276/746276_16835150910578_500.jpg', 'description': 'https://www.musinsa.com/app/goods/746276', 'size': ['XS', 'S', 'M', 'L', 'XL', 'XXL'], 'reviews': [{'weight_height_gender': '남성 · 184cm · 85kg', 'review_id': 'LV.5 b_eom_k', 'top_size': '보통이에요', 'brightness_comment': '보통이에요', 'color_comment': '보통이에요', 'thickness_comment': '보통이에요', 'purchased_product_id': 'https://www.musinsa.com/app/goods/746276/0', 'purchased_size': 'XXL', 'comment': '요즘들어 옷이 관심이 많아진 고등학생입니다 지금커버낫 반팔만 4개 연속으로 샀는데 정말 기본인로고핏 반팔에 깔끔합니다 배송도 빨리오고 특히 블랙에 화이트 너무 이뻐요!! 핏도 이쁘고 구매하세요 진짜 추천드립니다'}, {'weight_height_gender': '남성 · 172cm · 61kg', 'review_id': 'LV.5 마음만은180cm', 'top_size': '보통이에요', 'brightness_comment': '보통이에요', 'color_comment': '보통이에요', 'thickness_comment': '보통이에요', 'purchased_product_id': 'https://www.musinsa.com/app/goods/746276/0', 'purchased_size': 'L', 'comment': '적당한 세미오버핏에 비치지도 않아서 자주 애용할것 같아요'}, {'weight_height_gender': '여성 · 154cm · 46kg', 'review_id': 'LV.6 마이마이08', 'top_size': '보통이에요', 'brightness_comment': '어두워요', 'color_comment': '보통이에요', 'thickness_comment': '두꺼워요', 'purchased_product_id': 'https://www.musinsa.com/app/goods/746276/0', 'purchased_size': 'S', 'comment': '사이즈가 맞고 색깔도 마음에 들어요. 품질이 좋아서 여름에 입기가 시원해요.'}, {'weight_height_gender': '여성 · 163cm · 47kg', 'review_id': 'LV.7 덕구눈아', 'top_size': '보통이에요', 'brightness_comment': '어두워요', 'color_comment': '선명해요', 'thickness_comment': '보통이에요', 'purchased_product_id': 'https://www.musinsa.com/app/goods/746276/0', 'purchased_size': 'WS', 'comment': '산지 꽤 되었는데 한 번에 후기 올릴려구 이제 올려요 ㅋㅋ큐ㅠ\n크게 입는 것보다 딱 맞게 입고 싶어서 고른 옷인데 올 여름 이것만 입었어요!\n몇 번이나 빨았는데도 짱짱함은 미쳤어여 진짜\n머리 똥 아님니다,,'}, {'weight_height_gender': '남성 · 173cm · 61kg', 'review_id': 'LV.4 _jongjin_', 'top_size': '보통이에요', 'brightness_comment': '보통이에요', 'color_comment': '선명해요', 'thickness_comment': '보통이에요', 'purchased_product_id': 'https://www.musinsa.com/app/goods/746276/0', 'purchased_size': 'S', 'comment': '로고프린팅된반팔티라서 무난하게 입기 좋은거같아요 !!'}, {'weight_height_gender': '여성 · 161cm · 55kg', 'review_id': 'LV.7 푸딩푸딩1', 'top_size': '커요', 'brightness_comment': '어두워요', 'color_comment': '선명해요', 'thickness_comment': '보통이에요', 'purchased_product_id': 'https://www.musinsa.com/app/goods/746276/0', 'purchased_size': 'XL', 'comment': '느무이뻐유 아주 편하고 넉넉하니 좋구만유 강추래유'}, {'weight_height_gender': '남성 · 184cm · 70kg', 'review_id': 'LV.4 그대로좋아해', 'top_size': '보통이에요', 'brightness_comment': '보통이에요', 'color_comment': '선명해요', 'thickness_comment': '보통이에요', 'purchased_product_id': 'https://www.musinsa.com/app/goods/746276/0', 'purchased_size': 'XL', 'comment': '아무 바지에나 다 잘어울리는것 같아요 딱 정핏이라 오버핏 기대하시면 더 큰거 구매하셔야할것 같아요'}]}
+[2024-07-19T07:49:36.129+0000] {logging_mixin.py:188} INFO - Processed 5 products
+[2024-07-19T07:49:36.544+0000] {logging_mixin.py:188} INFO - Updated data saved to S3
+[2024-07-19T07:49:36.549+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-07-19T07:49:36.567+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=crawling_dag_v2, task_id=read_s3_and_compare_links, execution_date=20240719T073553, start_date=20240719T074558, end_date=20240719T074936
+[2024-07-19T07:49:36.650+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-07-19T07:49:36.675+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,169 @@
+[2024-07-20T14:10:48.800+0900] {processor.py:161} INFO - Started process (PID=12765) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:10:48.802+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-07-20T14:10:48.806+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:10:48.805+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:10:48.816+0900] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:10:48.998+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:10:48.997+0900] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-20T14:10:49.027+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:10:49.027+0900] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-07-20 00:00:00+00:00, run_after=2024-07-20 04:00:00+00:00
+[2024-07-20T14:10:49.071+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.283 seconds
+[2024-07-20T14:12:06.341+0900] {processor.py:161} INFO - Started process (PID=13262) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:12:06.345+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-07-20T14:12:06.348+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:12:06.347+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:12:06.359+0900] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:12:06.399+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:12:06.398+0900] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-20T14:12:06.438+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:12:06.438+0900] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-07-20 00:00:00+00:00, run_after=2024-07-20 04:00:00+00:00
+[2024-07-20T14:12:06.486+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.159 seconds
+[2024-07-20T14:13:31.303+0900] {processor.py:161} INFO - Started process (PID=13789) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:13:31.315+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-07-20T14:13:31.317+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:13:31.317+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:13:31.325+0900] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:13:31.346+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:13:31.345+0900] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-20T14:13:31.371+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:13:31.371+0900] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-07-20 00:00:00+00:00, run_after=2024-07-20 04:00:00+00:00
+[2024-07-20T14:13:31.411+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.126 seconds
+[2024-07-20T14:14:54.933+0900] {processor.py:161} INFO - Started process (PID=14311) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:14:54.936+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-07-20T14:14:54.939+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:14:54.939+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:14:54.951+0900] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:14:54.976+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:14:54.975+0900] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-20T14:14:55.013+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:14:55.013+0900] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-07-20 00:00:00+00:00, run_after=2024-07-20 04:00:00+00:00
+[2024-07-20T14:14:55.054+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.132 seconds
+[2024-07-20T14:16:12.813+0900] {processor.py:161} INFO - Started process (PID=14807) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:16:12.817+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-07-20T14:16:12.820+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:16:12.820+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:16:12.831+0900] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:16:12.861+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:16:12.860+0900] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-20T14:16:12.911+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:16:12.910+0900] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-07-20 00:00:00+00:00, run_after=2024-07-20 04:00:00+00:00
+[2024-07-20T14:16:12.968+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.169 seconds
+[2024-07-20T14:17:34.725+0900] {processor.py:161} INFO - Started process (PID=15324) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:17:34.728+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-07-20T14:17:34.731+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:17:34.730+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:17:34.740+0900] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:17:34.766+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:17:34.766+0900] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-20T14:17:34.798+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:17:34.798+0900] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-07-20 00:00:00+00:00, run_after=2024-07-20 04:00:00+00:00
+[2024-07-20T14:17:34.867+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.152 seconds
+[2024-07-20T14:18:55.071+0900] {processor.py:161} INFO - Started process (PID=15832) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:18:55.084+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-07-20T14:18:55.088+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:18:55.087+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:18:55.101+0900] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:18:55.139+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:18:55.138+0900] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-20T14:18:55.181+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:18:55.181+0900] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-07-20 00:00:00+00:00, run_after=2024-07-20 04:00:00+00:00
+[2024-07-20T14:18:55.230+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.174 seconds
+[2024-07-20T14:20:12.660+0900] {processor.py:161} INFO - Started process (PID=16332) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:20:12.673+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-07-20T14:20:12.677+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:20:12.676+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:20:12.687+0900] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:20:12.715+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:20:12.715+0900] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-20T14:20:12.756+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:20:12.755+0900] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-07-20 00:00:00+00:00, run_after=2024-07-20 04:00:00+00:00
+[2024-07-20T14:20:12.804+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.156 seconds
+[2024-07-20T14:21:58.210+0900] {processor.py:161} INFO - Started process (PID=17022) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:21:58.212+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-07-20T14:21:58.214+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:21:58.214+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:21:58.222+0900] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:21:58.245+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:21:58.245+0900] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-20T14:21:58.273+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:21:58.273+0900] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-07-20 00:00:00+00:00, run_after=2024-07-20 04:00:00+00:00
+[2024-07-20T14:21:58.317+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.118 seconds
+[2024-07-20T14:23:35.255+0900] {processor.py:161} INFO - Started process (PID=17636) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:23:35.260+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-07-20T14:23:35.263+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:23:35.262+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:23:35.287+0900] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:23:35.338+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:23:35.338+0900] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-20T14:23:35.427+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:23:35.424+0900] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-07-20 00:00:00+00:00, run_after=2024-07-20 04:00:00+00:00
+[2024-07-20T14:23:35.516+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.289 seconds
+[2024-07-20T14:25:02.292+0900] {processor.py:161} INFO - Started process (PID=18174) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:25:02.295+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-07-20T14:25:02.298+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:25:02.297+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:25:02.315+0900] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:25:02.367+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:25:02.367+0900] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-20T14:25:02.439+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:25:02.438+0900] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-07-20 00:00:00+00:00, run_after=2024-07-20 04:00:00+00:00
+[2024-07-20T14:25:02.536+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.260 seconds
+[2024-07-20T14:26:51.954+0900] {processor.py:161} INFO - Started process (PID=18797) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:26:51.963+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-07-20T14:26:51.967+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:26:51.965+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:26:51.995+0900] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:26:52.100+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:26:52.099+0900] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-20T14:26:52.219+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:26:52.217+0900] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-07-20 00:00:00+00:00, run_after=2024-07-20 04:00:00+00:00
+[2024-07-20T14:26:52.365+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.451 seconds
+[2024-07-20T14:28:10.722+0900] {processor.py:161} INFO - Started process (PID=19299) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:28:10.726+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-07-20T14:28:10.728+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:28:10.727+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:28:10.737+0900] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:28:10.760+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:28:10.760+0900] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-20T14:28:10.791+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:28:10.791+0900] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-07-20 00:00:00+00:00, run_after=2024-07-20 04:00:00+00:00
+[2024-07-20T14:28:10.834+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.121 seconds
+[2024-07-20T14:29:30.711+0900] {processor.py:161} INFO - Started process (PID=19811) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:29:30.714+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-07-20T14:29:30.716+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:29:30.716+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:29:30.727+0900] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:29:30.755+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:29:30.755+0900] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-20T14:29:30.789+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:29:30.788+0900] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-07-20 00:00:00+00:00, run_after=2024-07-20 04:00:00+00:00
+[2024-07-20T14:29:30.835+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.138 seconds
+[2024-07-20T14:30:52.778+0900] {processor.py:161} INFO - Started process (PID=20336) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:30:52.789+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-07-20T14:30:52.791+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:30:52.791+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:30:52.800+0900] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:30:52.833+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:30:52.832+0900] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-20T14:30:52.868+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:30:52.868+0900] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-07-20 00:00:00+00:00, run_after=2024-07-20 04:00:00+00:00
+[2024-07-20T14:30:52.920+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.151 seconds
+[2024-07-20T14:32:06.668+0900] {processor.py:161} INFO - Started process (PID=20817) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:32:06.672+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-07-20T14:32:06.675+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:32:06.674+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:32:06.689+0900] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:32:06.736+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:32:06.735+0900] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-20T14:32:06.809+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:32:06.808+0900] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-07-20 00:00:00+00:00, run_after=2024-07-20 04:00:00+00:00
+[2024-07-20T14:32:06.893+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.244 seconds
+[2024-07-20T14:33:46.009+0900] {processor.py:161} INFO - Started process (PID=21398) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:33:46.013+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-07-20T14:33:46.015+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:33:46.014+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:33:46.026+0900] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:33:46.060+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:33:46.060+0900] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-20T14:33:46.098+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:33:46.097+0900] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-07-20 00:00:00+00:00, run_after=2024-07-20 04:00:00+00:00
+[2024-07-20T14:33:46.143+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.145 seconds
+[2024-07-20T14:35:07.856+0900] {processor.py:161} INFO - Started process (PID=21918) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:35:07.858+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-07-20T14:35:07.859+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:35:07.858+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:35:07.865+0900] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:35:07.882+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:35:07.882+0900] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-20T14:35:07.907+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:35:07.906+0900] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-07-20 00:00:00+00:00, run_after=2024-07-20 04:00:00+00:00
+[2024-07-20T14:35:07.942+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.094 seconds
+[2024-07-20T14:36:28.976+0900] {processor.py:161} INFO - Started process (PID=22431) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:36:28.980+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-07-20T14:36:28.982+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:36:28.981+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:36:28.994+0900] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:36:29.021+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:36:29.020+0900] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-20T14:36:29.058+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:36:29.058+0900] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-07-20 00:00:00+00:00, run_after=2024-07-20 04:00:00+00:00
+[2024-07-20T14:36:29.130+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.174 seconds
+[2024-07-20T14:37:54.575+0900] {processor.py:161} INFO - Started process (PID=22955) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:37:54.578+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-07-20T14:37:54.581+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:37:54.580+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:37:54.601+0900] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:37:54.657+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:37:54.657+0900] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-20T14:37:54.690+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:37:54.689+0900] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-07-20 00:00:00+00:00, run_after=2024-07-20 04:00:00+00:00
+[2024-07-20T14:37:54.730+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.172 seconds
+[2024-07-20T14:39:19.038+0900] {processor.py:161} INFO - Started process (PID=23482) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:39:19.041+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-07-20T14:39:19.045+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:39:19.043+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:39:19.061+0900] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:39:19.101+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:39:19.100+0900] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-20T14:39:19.150+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:39:19.150+0900] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-07-20 00:00:00+00:00, run_after=2024-07-20 04:00:00+00:00
+[2024-07-20T14:39:19.207+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.188 seconds
+[2024-07-20T14:40:45.243+0900] {processor.py:161} INFO - Started process (PID=24018) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:40:45.250+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-07-20T14:40:45.252+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:40:45.251+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:40:45.269+0900] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:40:45.312+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:40:45.312+0900] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-20T14:40:45.363+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:40:45.363+0900] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-07-20 00:00:00+00:00, run_after=2024-07-20 04:00:00+00:00
+[2024-07-20T14:40:45.416+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.193 seconds
+[2024-07-20T14:42:22.300+0900] {processor.py:161} INFO - Started process (PID=24592) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:42:22.303+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-07-20T14:42:22.305+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:42:22.305+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:42:22.316+0900] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:42:22.346+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:42:22.346+0900] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-20T14:42:22.387+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:42:22.386+0900] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-07-20 00:00:00+00:00, run_after=2024-07-20 04:00:00+00:00
+[2024-07-20T14:42:22.439+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.152 seconds
+[2024-07-20T14:43:46.506+0900] {processor.py:161} INFO - Started process (PID=25141) to work on /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:43:46.510+0900] {processor.py:830} INFO - Processing file /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-07-20T14:43:46.512+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:43:46.511+0900] {dagbag.py:545} INFO - Filling up the DagBag from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:43:46.525+0900] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-07-20T14:43:46.565+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:43:46.565+0900] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-20T14:43:46.602+0900] {logging_mixin.py:188} INFO - [2024-07-20T14:43:46.601+0900] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-07-20 00:00:00+00:00, run_after=2024-07-20 04:00:00+00:00
+[2024-07-20T14:43:46.657+0900] {processor.py:183} INFO - Processing /home/papalio/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.166 seconds
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

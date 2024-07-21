@@ -1,0 +1,812 @@
+[2024-06-15T04:42:02.251+0000] {processor.py:157} INFO - Started process (PID=81) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:42:02.252+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T04:42:02.254+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:42:02.254+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:42:03.639+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:42:04.016+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:42:04.015+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T04:42:04.106+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:42:04.105+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T03:00:00+00:00, run_after=2024-06-15T04:00:00+00:00
+[2024-06-15T04:42:04.177+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 1.932 seconds
+[2024-06-15T04:42:34.329+0000] {processor.py:157} INFO - Started process (PID=202) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:42:34.331+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T04:42:34.333+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:42:34.333+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:42:35.527+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:42:35.596+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:42:35.593+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T04:42:35.665+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:42:35.665+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T03:00:00+00:00, run_after=2024-06-15T04:00:00+00:00
+[2024-06-15T04:42:35.728+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 1.405 seconds
+[2024-06-15T04:43:05.836+0000] {processor.py:157} INFO - Started process (PID=330) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:43:05.837+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T04:43:05.838+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:43:05.838+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:43:06.619+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:43:06.663+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:43:06.662+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T04:43:06.707+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:43:06.706+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T03:00:00+00:00, run_after=2024-06-15T04:00:00+00:00
+[2024-06-15T04:43:06.750+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.917 seconds
+[2024-06-15T04:43:37.185+0000] {processor.py:157} INFO - Started process (PID=455) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:43:37.186+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T04:43:37.187+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:43:37.187+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:43:37.788+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:43:37.814+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:43:37.813+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T04:43:37.840+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:43:37.840+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T03:00:00+00:00, run_after=2024-06-15T04:00:00+00:00
+[2024-06-15T04:43:37.864+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.683 seconds
+[2024-06-15T04:44:07.997+0000] {processor.py:157} INFO - Started process (PID=572) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:44:07.998+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T04:44:07.999+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:44:07.999+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:44:08.554+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:44:08.578+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:44:08.577+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T04:44:08.603+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:44:08.603+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T03:00:00+00:00, run_after=2024-06-15T04:00:00+00:00
+[2024-06-15T04:44:08.635+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.642 seconds
+[2024-06-15T04:44:39.029+0000] {processor.py:157} INFO - Started process (PID=692) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:44:39.030+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T04:44:39.031+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:44:39.031+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:44:39.593+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:44:39.616+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:44:39.616+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T04:44:39.646+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:44:39.646+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T03:00:00+00:00, run_after=2024-06-15T04:00:00+00:00
+[2024-06-15T04:44:39.674+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.648 seconds
+[2024-06-15T04:45:10.661+0000] {processor.py:157} INFO - Started process (PID=815) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:45:10.662+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T04:45:10.663+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:45:10.663+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:45:11.221+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:45:11.253+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:45:11.252+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T04:45:11.285+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:45:11.285+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T03:00:00+00:00, run_after=2024-06-15T04:00:00+00:00
+[2024-06-15T04:45:11.311+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.653 seconds
+[2024-06-15T04:45:41.500+0000] {processor.py:157} INFO - Started process (PID=932) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:45:41.502+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T04:45:41.503+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:45:41.502+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:45:42.017+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:45:42.041+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:45:42.039+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T04:45:42.066+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:45:42.066+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T03:00:00+00:00, run_after=2024-06-15T04:00:00+00:00
+[2024-06-15T04:45:42.089+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.593 seconds
+[2024-06-15T04:46:12.717+0000] {processor.py:157} INFO - Started process (PID=1054) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:46:12.718+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T04:46:12.719+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:46:12.719+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:46:13.242+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:46:13.264+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:46:13.264+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T04:46:13.290+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:46:13.290+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T03:00:00+00:00, run_after=2024-06-15T04:00:00+00:00
+[2024-06-15T04:46:13.322+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.609 seconds
+[2024-06-15T04:46:43.518+0000] {processor.py:157} INFO - Started process (PID=1171) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:46:43.519+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T04:46:43.520+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:46:43.520+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:46:44.092+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:46:44.116+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:46:44.115+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T04:46:44.145+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:46:44.144+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T03:00:00+00:00, run_after=2024-06-15T04:00:00+00:00
+[2024-06-15T04:46:44.169+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.656 seconds
+[2024-06-15T04:47:14.896+0000] {processor.py:157} INFO - Started process (PID=1291) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:47:14.897+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T04:47:14.898+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:47:14.898+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:47:15.539+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:47:15.561+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:47:15.560+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T04:47:15.591+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:47:15.591+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T03:00:00+00:00, run_after=2024-06-15T04:00:00+00:00
+[2024-06-15T04:47:15.616+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.723 seconds
+[2024-06-15T04:47:45.845+0000] {processor.py:157} INFO - Started process (PID=1411) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:47:45.846+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T04:47:45.847+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:47:45.847+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:47:46.384+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:47:46.409+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:47:46.408+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T04:47:46.434+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:47:46.434+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T03:00:00+00:00, run_after=2024-06-15T04:00:00+00:00
+[2024-06-15T04:47:46.457+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.616 seconds
+[2024-06-15T04:48:17.176+0000] {processor.py:157} INFO - Started process (PID=1532) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:48:17.178+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T04:48:17.179+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:48:17.179+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:48:17.742+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:48:17.766+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:48:17.766+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T04:48:17.791+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:48:17.791+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T03:00:00+00:00, run_after=2024-06-15T04:00:00+00:00
+[2024-06-15T04:48:17.816+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.643 seconds
+[2024-06-15T04:48:48.187+0000] {processor.py:157} INFO - Started process (PID=1651) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:48:48.188+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T04:48:48.189+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:48:48.188+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:48:48.738+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:48:48.760+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:48:48.760+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T04:48:48.785+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:48:48.785+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T03:00:00+00:00, run_after=2024-06-15T04:00:00+00:00
+[2024-06-15T04:48:48.808+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.623 seconds
+[2024-06-15T04:49:19.185+0000] {processor.py:157} INFO - Started process (PID=1771) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:49:19.186+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T04:49:19.188+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:49:19.188+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:49:19.763+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:49:19.789+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:49:19.788+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T04:49:19.814+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:49:19.814+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T03:00:00+00:00, run_after=2024-06-15T04:00:00+00:00
+[2024-06-15T04:49:19.835+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.655 seconds
+[2024-06-15T04:49:50.514+0000] {processor.py:157} INFO - Started process (PID=1893) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:49:50.517+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T04:49:50.518+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:49:50.518+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:49:51.423+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:49:51.481+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:49:51.479+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T04:49:51.539+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:49:51.539+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T03:00:00+00:00, run_after=2024-06-15T04:00:00+00:00
+[2024-06-15T04:49:51.584+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 1.077 seconds
+[2024-06-15T04:50:21.621+0000] {processor.py:157} INFO - Started process (PID=2017) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:50:21.623+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T04:50:21.623+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:50:21.623+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:50:22.163+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:50:22.188+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:50:22.188+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T04:50:22.215+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:50:22.215+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T03:00:00+00:00, run_after=2024-06-15T04:00:00+00:00
+[2024-06-15T04:50:22.240+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.622 seconds
+[2024-06-15T04:50:52.303+0000] {processor.py:157} INFO - Started process (PID=2134) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:50:52.304+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T04:50:52.305+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:50:52.305+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:50:52.826+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:50:52.850+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:50:52.850+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T04:50:52.878+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:50:52.878+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T03:00:00+00:00, run_after=2024-06-15T04:00:00+00:00
+[2024-06-15T04:50:52.902+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.604 seconds
+[2024-06-15T04:51:23.158+0000] {processor.py:157} INFO - Started process (PID=2254) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:51:23.159+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T04:51:23.160+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:51:23.160+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:51:23.659+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:51:23.682+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:51:23.680+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T04:51:23.706+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:51:23.706+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T03:00:00+00:00, run_after=2024-06-15T04:00:00+00:00
+[2024-06-15T04:51:23.728+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.573 seconds
+[2024-06-15T04:51:53.769+0000] {processor.py:157} INFO - Started process (PID=2373) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:51:53.770+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T04:51:53.771+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:51:53.771+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:51:54.460+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:51:54.504+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:51:54.499+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T04:51:54.550+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:51:54.549+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T03:00:00+00:00, run_after=2024-06-15T04:00:00+00:00
+[2024-06-15T04:51:54.580+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.816 seconds
+[2024-06-15T04:52:25.386+0000] {processor.py:157} INFO - Started process (PID=2494) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:52:25.388+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T04:52:25.389+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:52:25.389+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:52:26.024+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:52:26.048+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:52:26.047+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T04:52:26.074+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:52:26.074+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T03:00:00+00:00, run_after=2024-06-15T04:00:00+00:00
+[2024-06-15T04:52:26.096+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.715 seconds
+[2024-06-15T04:52:56.522+0000] {processor.py:157} INFO - Started process (PID=2614) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:52:56.524+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T04:52:56.524+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:52:56.524+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:52:57.112+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:52:57.136+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:52:57.135+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T04:52:57.160+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:52:57.160+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T03:00:00+00:00, run_after=2024-06-15T04:00:00+00:00
+[2024-06-15T04:52:57.187+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.669 seconds
+[2024-06-15T04:53:27.583+0000] {processor.py:157} INFO - Started process (PID=2733) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:53:27.585+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T04:53:27.585+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:53:27.585+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:53:28.135+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:53:28.167+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:53:28.166+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T04:53:28.200+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:53:28.200+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T03:00:00+00:00, run_after=2024-06-15T04:00:00+00:00
+[2024-06-15T04:53:28.227+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.647 seconds
+[2024-06-15T04:53:58.746+0000] {processor.py:157} INFO - Started process (PID=2853) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:53:58.748+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T04:53:58.748+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:53:58.748+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:53:59.306+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:53:59.329+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:53:59.329+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T04:53:59.355+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:53:59.355+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T03:00:00+00:00, run_after=2024-06-15T04:00:00+00:00
+[2024-06-15T04:53:59.376+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.634 seconds
+[2024-06-15T04:54:29.982+0000] {processor.py:157} INFO - Started process (PID=2973) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:54:29.984+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T04:54:29.984+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:54:29.984+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:54:30.592+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:54:30.616+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:54:30.615+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T04:54:30.643+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:54:30.642+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T03:00:00+00:00, run_after=2024-06-15T04:00:00+00:00
+[2024-06-15T04:54:30.677+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.698 seconds
+[2024-06-15T04:55:01.124+0000] {processor.py:157} INFO - Started process (PID=3093) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:55:01.126+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T04:55:01.126+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:55:01.126+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:55:01.779+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:55:01.799+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:55:01.798+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T04:55:01.824+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:55:01.824+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T03:00:00+00:00, run_after=2024-06-15T04:00:00+00:00
+[2024-06-15T04:55:01.845+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.724 seconds
+[2024-06-15T04:55:32.475+0000] {processor.py:157} INFO - Started process (PID=3214) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:55:32.476+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T04:55:32.477+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:55:32.476+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:55:33.053+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:55:33.076+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:55:33.075+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T04:55:33.101+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:55:33.101+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T03:00:00+00:00, run_after=2024-06-15T04:00:00+00:00
+[2024-06-15T04:55:33.121+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.650 seconds
+[2024-06-15T04:56:03.998+0000] {processor.py:157} INFO - Started process (PID=3335) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:56:03.999+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T04:56:04.000+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:56:04.000+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:56:04.675+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:56:04.703+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:56:04.702+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T04:56:04.741+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:56:04.741+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T03:00:00+00:00, run_after=2024-06-15T04:00:00+00:00
+[2024-06-15T04:56:04.773+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.779 seconds
+[2024-06-15T04:56:34.959+0000] {processor.py:157} INFO - Started process (PID=3455) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:56:34.961+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T04:56:34.962+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:56:34.962+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:56:35.551+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:56:35.577+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:56:35.577+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T04:56:35.606+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:56:35.606+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T03:00:00+00:00, run_after=2024-06-15T04:00:00+00:00
+[2024-06-15T04:56:35.634+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.680 seconds
+[2024-06-15T04:57:06.580+0000] {processor.py:157} INFO - Started process (PID=3583) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:57:06.582+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T04:57:06.583+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:57:06.583+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:57:07.169+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:57:07.197+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:57:07.196+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T04:57:07.223+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:57:07.223+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T03:00:00+00:00, run_after=2024-06-15T04:00:00+00:00
+[2024-06-15T04:57:07.250+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.673 seconds
+[2024-06-15T04:57:37.609+0000] {processor.py:157} INFO - Started process (PID=3701) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:57:37.611+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T04:57:37.611+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:57:37.611+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:57:38.231+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:57:38.254+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:57:38.253+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T04:57:38.286+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:57:38.286+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T03:00:00+00:00, run_after=2024-06-15T04:00:00+00:00
+[2024-06-15T04:57:38.312+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.706 seconds
+[2024-06-15T04:58:08.917+0000] {processor.py:157} INFO - Started process (PID=3819) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:58:08.919+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T04:58:08.919+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:58:08.919+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:58:09.495+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:58:09.520+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:58:09.520+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T04:58:09.549+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:58:09.549+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T03:00:00+00:00, run_after=2024-06-15T04:00:00+00:00
+[2024-06-15T04:58:09.581+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.667 seconds
+[2024-06-15T04:58:39.637+0000] {processor.py:157} INFO - Started process (PID=3939) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:58:39.640+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T04:58:39.640+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:58:39.640+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:58:40.221+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:58:40.247+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:58:40.246+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T04:58:40.275+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:58:40.274+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T03:00:00+00:00, run_after=2024-06-15T04:00:00+00:00
+[2024-06-15T04:58:40.316+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.682 seconds
+[2024-06-15T04:59:10.897+0000] {processor.py:157} INFO - Started process (PID=4059) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:59:10.899+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T04:59:10.899+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:59:10.899+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:59:11.498+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:59:11.521+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:59:11.521+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T04:59:11.551+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:59:11.551+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T03:00:00+00:00, run_after=2024-06-15T04:00:00+00:00
+[2024-06-15T04:59:11.576+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.682 seconds
+[2024-06-15T04:59:42.299+0000] {processor.py:157} INFO - Started process (PID=4179) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:59:42.301+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T04:59:42.302+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:59:42.301+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:59:42.870+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T04:59:42.895+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:59:42.894+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T04:59:42.924+0000] {logging_mixin.py:150} INFO - [2024-06-15T04:59:42.924+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T03:00:00+00:00, run_after=2024-06-15T04:00:00+00:00
+[2024-06-15T04:59:42.973+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.677 seconds
+[2024-06-15T05:00:13.469+0000] {processor.py:157} INFO - Started process (PID=4299) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:00:13.470+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:00:13.471+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:00:13.471+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:00:14.080+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:00:14.107+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:00:14.107+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:00:14.136+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:00:14.136+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:00:14.161+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.697 seconds
+[2024-06-15T05:00:45.189+0000] {processor.py:157} INFO - Started process (PID=4420) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:00:45.190+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:00:45.191+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:00:45.191+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:00:45.836+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:00:45.861+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:00:45.861+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:00:45.893+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:00:45.893+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:00:45.924+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.740 seconds
+[2024-06-15T05:01:16.293+0000] {processor.py:157} INFO - Started process (PID=4540) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:01:16.295+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:01:16.296+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:01:16.296+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:01:16.894+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:01:16.917+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:01:16.917+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:01:16.943+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:01:16.943+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:01:16.966+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.676 seconds
+[2024-06-15T05:01:47.474+0000] {processor.py:157} INFO - Started process (PID=4660) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:01:47.476+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:01:47.476+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:01:47.476+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:01:48.031+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:01:48.057+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:01:48.057+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:01:48.087+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:01:48.087+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:01:48.114+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.643 seconds
+[2024-06-15T05:02:18.539+0000] {processor.py:157} INFO - Started process (PID=4780) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:02:18.541+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:02:18.542+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:02:18.542+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:02:19.093+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:02:19.119+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:02:19.118+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:02:19.151+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:02:19.151+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:02:19.179+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.648 seconds
+[2024-06-15T05:02:49.865+0000] {processor.py:157} INFO - Started process (PID=4901) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:02:49.867+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:02:49.868+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:02:49.867+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:02:50.437+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:02:50.461+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:02:50.460+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:02:50.486+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:02:50.486+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:02:50.510+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.648 seconds
+[2024-06-15T05:03:21.048+0000] {processor.py:157} INFO - Started process (PID=5024) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:03:21.049+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:03:21.050+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:03:21.050+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:03:21.538+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:03:21.581+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:03:21.580+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:03:21.631+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:03:21.630+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:03:21.680+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.636 seconds
+[2024-06-15T05:03:52.516+0000] {processor.py:157} INFO - Started process (PID=5142) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:03:52.518+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:03:52.519+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:03:52.519+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:03:53.058+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:03:53.095+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:03:53.094+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:03:53.138+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:03:53.138+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:03:53.168+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.657 seconds
+[2024-06-15T05:04:23.475+0000] {processor.py:157} INFO - Started process (PID=5264) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:04:23.477+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:04:23.478+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:04:23.477+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:04:23.965+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:04:23.993+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:04:23.992+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:04:24.023+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:04:24.023+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:04:24.050+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.579 seconds
+[2024-06-15T05:04:54.145+0000] {processor.py:157} INFO - Started process (PID=5384) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:04:54.146+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:04:54.147+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:04:54.147+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:04:54.710+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:04:54.745+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:04:54.744+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:04:54.788+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:04:54.788+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:04:54.815+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.673 seconds
+[2024-06-15T05:05:24.847+0000] {processor.py:157} INFO - Started process (PID=5504) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:05:24.848+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:05:24.849+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:05:24.849+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:05:25.301+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:05:25.331+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:05:25.330+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:05:25.361+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:05:25.361+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:05:25.389+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.546 seconds
+[2024-06-15T05:05:55.686+0000] {processor.py:157} INFO - Started process (PID=5620) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:05:55.687+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:05:55.688+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:05:55.688+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:05:56.143+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:05:56.173+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:05:56.172+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:05:56.201+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:05:56.201+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:05:56.226+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.544 seconds
+[2024-06-15T05:06:26.599+0000] {processor.py:157} INFO - Started process (PID=5740) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:06:26.600+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:06:26.601+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:06:26.601+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:06:27.039+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:06:27.066+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:06:27.065+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:06:27.096+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:06:27.096+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:06:27.120+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.524 seconds
+[2024-06-15T05:06:57.182+0000] {processor.py:157} INFO - Started process (PID=5860) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:06:57.183+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:06:57.184+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:06:57.184+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:06:57.676+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:06:57.708+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:06:57.708+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:06:57.741+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:06:57.741+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:06:57.769+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.591 seconds
+[2024-06-15T05:07:27.883+0000] {processor.py:157} INFO - Started process (PID=5980) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:07:27.885+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:07:27.886+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:07:27.885+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:07:28.526+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:07:28.559+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:07:28.559+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:07:28.605+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:07:28.605+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:07:28.639+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.761 seconds
+[2024-06-15T05:07:59.115+0000] {processor.py:157} INFO - Started process (PID=6100) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:07:59.116+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:07:59.117+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:07:59.117+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:07:59.630+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:07:59.668+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:07:59.668+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:07:59.710+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:07:59.709+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:07:59.738+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.627 seconds
+[2024-06-15T05:08:30.617+0000] {processor.py:157} INFO - Started process (PID=6223) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:08:30.619+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:08:30.620+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:08:30.620+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:08:31.054+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:08:31.084+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:08:31.083+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:08:31.116+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:08:31.116+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:08:31.146+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.532 seconds
+[2024-06-15T05:09:01.827+0000] {processor.py:157} INFO - Started process (PID=6343) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:09:01.829+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:09:01.829+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:09:01.829+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:09:02.258+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:09:02.290+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:09:02.289+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:09:02.322+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:09:02.322+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:09:02.351+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.527 seconds
+[2024-06-15T05:09:33.137+0000] {processor.py:157} INFO - Started process (PID=6463) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:09:33.138+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:09:33.139+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:09:33.139+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:09:33.600+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:09:33.627+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:09:33.626+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:09:33.656+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:09:33.656+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:09:33.680+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.546 seconds
+[2024-06-15T05:10:04.315+0000] {processor.py:157} INFO - Started process (PID=6583) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:10:04.316+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:10:04.317+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:10:04.317+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:10:04.783+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:10:04.810+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:10:04.809+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:10:04.836+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:10:04.836+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:10:04.858+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.547 seconds
+[2024-06-15T05:10:35.518+0000] {processor.py:157} INFO - Started process (PID=6698) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:10:35.519+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:10:35.520+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:10:35.520+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:10:35.994+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:10:36.067+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:10:36.066+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:10:36.155+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:10:36.155+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:10:36.195+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.680 seconds
+[2024-06-15T05:11:06.955+0000] {processor.py:157} INFO - Started process (PID=6818) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:11:06.956+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:11:06.957+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:11:06.957+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:11:07.417+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:11:07.448+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:11:07.448+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:11:07.478+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:11:07.478+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:11:07.507+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.556 seconds
+[2024-06-15T05:11:38.224+0000] {processor.py:157} INFO - Started process (PID=6947) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:11:38.226+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:11:38.226+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:11:38.226+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:11:38.683+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:11:38.711+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:11:38.710+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:11:38.742+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:11:38.742+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:11:38.771+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.550 seconds
+[2024-06-15T05:12:09.875+0000] {processor.py:157} INFO - Started process (PID=7070) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:12:09.877+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:12:09.878+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:12:09.878+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:12:10.467+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:12:10.512+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:12:10.511+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:12:10.565+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:12:10.565+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:12:10.599+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.727 seconds
+[2024-06-15T05:12:41.618+0000] {processor.py:157} INFO - Started process (PID=7198) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:12:41.620+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:12:41.621+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:12:41.620+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:12:42.110+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:12:42.146+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:12:42.145+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:12:42.198+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:12:42.197+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:12:42.277+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.661 seconds
+[2024-06-15T05:13:12.638+0000] {processor.py:157} INFO - Started process (PID=7317) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:13:12.639+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:13:12.640+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:13:12.640+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:13:13.068+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:13:13.096+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:13:13.095+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:13:13.126+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:13:13.126+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:13:13.151+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.516 seconds
+[2024-06-15T05:13:44.302+0000] {processor.py:157} INFO - Started process (PID=7438) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:13:44.303+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:13:44.304+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:13:44.304+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:13:44.711+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:13:44.736+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:13:44.735+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:13:44.763+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:13:44.763+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:13:44.786+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.488 seconds
+[2024-06-15T05:14:15.562+0000] {processor.py:157} INFO - Started process (PID=7559) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:14:15.564+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:14:15.564+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:14:15.564+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:14:16.015+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:14:16.049+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:14:16.048+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:14:16.087+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:14:16.087+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:14:16.115+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.557 seconds
+[2024-06-15T05:14:47.836+0000] {processor.py:157} INFO - Started process (PID=7681) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:14:47.838+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:14:47.839+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:14:47.838+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:14:48.383+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:14:48.413+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:14:48.413+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:14:48.449+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:14:48.448+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:14:48.482+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.650 seconds
+[2024-06-15T05:15:18.727+0000] {processor.py:157} INFO - Started process (PID=7801) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:15:18.729+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:15:18.730+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:15:18.730+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:15:19.217+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:15:19.247+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:15:19.246+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:15:19.280+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:15:19.280+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:15:19.372+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.649 seconds
+[2024-06-15T05:15:50.101+0000] {processor.py:157} INFO - Started process (PID=7920) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:15:50.103+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:15:50.104+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:15:50.104+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:15:50.534+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:15:50.563+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:15:50.563+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:15:50.596+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:15:50.596+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:15:50.624+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.527 seconds
+[2024-06-15T05:16:20.739+0000] {processor.py:157} INFO - Started process (PID=8040) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:16:20.741+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:16:20.742+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:16:20.742+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:16:21.217+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:16:21.251+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:16:21.250+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:16:21.283+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:16:21.283+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:16:21.466+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.731 seconds
+[2024-06-15T05:16:52.059+0000] {processor.py:157} INFO - Started process (PID=8160) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:16:52.060+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:16:52.061+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:16:52.061+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:16:52.531+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:16:52.564+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:16:52.564+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:16:52.603+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:16:52.603+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:16:52.789+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.734 seconds
+[2024-06-15T05:17:23.717+0000] {processor.py:157} INFO - Started process (PID=8281) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:17:23.719+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:17:23.720+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:17:23.720+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:17:24.220+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:17:24.248+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:17:24.247+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:17:24.431+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:17:24.430+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:17:24.477+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.763 seconds
+[2024-06-15T05:17:55.386+0000] {processor.py:157} INFO - Started process (PID=8400) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:17:55.388+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:17:55.389+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:17:55.388+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:17:55.887+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:17:55.918+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:17:55.917+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:17:56.064+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:17:56.064+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:17:56.087+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.705 seconds
+[2024-06-15T05:18:26.619+0000] {processor.py:157} INFO - Started process (PID=8519) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:18:26.621+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:18:26.622+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:18:26.621+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:18:27.066+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:18:27.093+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:18:27.093+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:18:27.256+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:18:27.256+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:18:27.280+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.664 seconds
+[2024-06-15T05:18:57.725+0000] {processor.py:157} INFO - Started process (PID=8637) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:18:57.727+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:18:57.727+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:18:57.727+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:18:58.182+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:18:58.215+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:18:58.215+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:18:58.254+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:18:58.253+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:18:58.453+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.732 seconds
+[2024-06-15T05:19:28.838+0000] {processor.py:157} INFO - Started process (PID=8757) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:19:28.839+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:19:28.840+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:19:28.840+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:19:29.269+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:19:29.298+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:19:29.298+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:19:29.328+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:19:29.327+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:19:29.496+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.661 seconds
+[2024-06-15T05:20:00.312+0000] {processor.py:157} INFO - Started process (PID=8878) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:20:00.313+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:20:00.314+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:20:00.314+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:20:00.794+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:20:00.827+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:20:00.826+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:20:00.864+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:20:00.864+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:20:00.891+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.583 seconds
+[2024-06-15T05:20:32.414+0000] {processor.py:157} INFO - Started process (PID=9000) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:20:32.416+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:20:32.417+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:20:32.416+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:20:33.110+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:20:33.130+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:20:33.129+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:20:33.155+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:20:33.155+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:20:33.177+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.767 seconds
+[2024-06-15T05:21:03.478+0000] {processor.py:157} INFO - Started process (PID=9121) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:21:03.480+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:21:03.481+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:21:03.480+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:21:04.056+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:21:04.081+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:21:04.081+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:21:04.114+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:21:04.113+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:21:04.144+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.669 seconds
+[2024-06-15T05:21:34.664+0000] {processor.py:157} INFO - Started process (PID=9238) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:21:34.666+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:21:34.667+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:21:34.667+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:21:35.101+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:21:35.246+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:21:35.245+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:21:35.272+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:21:35.272+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:21:35.295+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.635 seconds
+[2024-06-15T05:22:05.751+0000] {processor.py:157} INFO - Started process (PID=9356) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:22:05.753+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:22:05.755+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:22:05.754+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:22:06.280+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:22:06.467+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:22:06.466+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:22:06.505+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:22:06.504+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:22:06.536+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.790 seconds
+[2024-06-15T05:22:37.054+0000] {processor.py:157} INFO - Started process (PID=9476) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:22:37.056+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:22:37.057+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:22:37.056+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:22:37.648+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:22:37.676+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:22:37.675+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:22:37.705+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:22:37.704+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:22:37.737+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.687 seconds
+[2024-06-15T05:23:07.837+0000] {processor.py:157} INFO - Started process (PID=9596) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:23:07.839+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:23:07.840+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:23:07.839+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:23:08.460+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:23:08.488+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:23:08.486+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:23:08.517+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:23:08.517+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:23:08.542+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.708 seconds
+[2024-06-15T05:23:38.754+0000] {processor.py:157} INFO - Started process (PID=9713) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:23:38.756+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:23:38.757+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:23:38.756+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:23:39.334+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:23:39.359+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:23:39.358+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:23:39.388+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:23:39.388+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:23:39.425+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.674 seconds
+[2024-06-15T05:24:09.725+0000] {processor.py:157} INFO - Started process (PID=9838) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:24:09.727+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:24:09.728+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:24:09.727+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:24:10.274+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:24:10.299+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:24:10.298+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:24:10.326+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:24:10.325+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:24:10.353+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.632 seconds
+[2024-06-15T05:24:40.943+0000] {processor.py:157} INFO - Started process (PID=9959) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:24:40.945+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:24:40.946+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:24:40.945+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:24:41.528+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:24:41.554+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:24:41.553+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:24:41.582+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:24:41.582+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:24:41.607+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.667 seconds
+[2024-06-15T05:25:12.169+0000] {processor.py:157} INFO - Started process (PID=10080) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:25:12.171+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:25:12.172+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:25:12.171+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:25:12.932+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:25:12.963+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:25:12.961+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:25:12.994+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:25:12.994+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:25:13.025+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.859 seconds
+[2024-06-15T05:25:43.525+0000] {processor.py:157} INFO - Started process (PID=10199) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:25:43.528+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:25:43.529+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:25:43.529+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:25:44.145+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:25:44.171+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:25:44.170+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:25:44.199+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:25:44.198+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:25:44.224+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.705 seconds
+[2024-06-15T05:26:14.483+0000] {processor.py:157} INFO - Started process (PID=10319) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:26:14.484+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:26:14.485+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:26:14.485+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:26:15.068+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:26:15.092+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:26:15.091+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:26:15.125+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:26:15.125+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:26:15.151+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.672 seconds
+[2024-06-15T05:26:45.698+0000] {processor.py:157} INFO - Started process (PID=10438) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:26:45.700+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:26:45.701+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:26:45.700+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:26:46.280+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:26:46.306+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:26:46.306+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:26:46.333+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:26:46.333+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:26:46.369+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.675 seconds
+[2024-06-15T05:27:17.431+0000] {processor.py:157} INFO - Started process (PID=10558) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:27:17.433+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:27:17.434+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:27:17.434+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:27:18.047+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:27:18.077+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:27:18.076+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:27:18.109+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:27:18.108+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:27:18.137+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.711 seconds
+[2024-06-15T05:27:48.894+0000] {processor.py:157} INFO - Started process (PID=10679) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:27:48.896+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:27:48.898+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:27:48.897+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:27:49.605+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:27:49.633+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:27:49.632+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:27:49.670+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:27:49.670+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:27:49.703+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.814 seconds
+[2024-06-15T05:28:20.264+0000] {processor.py:157} INFO - Started process (PID=10799) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:28:20.266+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:28:20.267+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:28:20.266+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:28:20.932+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:28:20.960+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:28:20.959+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:28:20.996+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:28:20.996+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:28:21.028+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.768 seconds
+[2024-06-15T05:28:51.080+0000] {processor.py:157} INFO - Started process (PID=10918) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:28:51.081+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:28:51.082+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:28:51.082+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:28:51.656+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:28:51.682+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:28:51.681+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:28:51.715+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:28:51.714+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:28:51.738+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.663 seconds
+[2024-06-15T05:29:22.804+0000] {processor.py:157} INFO - Started process (PID=11040) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:29:22.805+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:29:22.806+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:29:22.806+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:29:23.450+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:29:23.486+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:29:23.485+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:29:23.531+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:29:23.531+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:29:23.573+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.774 seconds
+[2024-06-15T05:29:54.163+0000] {processor.py:157} INFO - Started process (PID=11160) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:29:54.165+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:29:54.165+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:29:54.165+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:29:54.750+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:29:54.774+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:29:54.773+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:29:54.804+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:29:54.803+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:29:54.829+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.670 seconds
+[2024-06-15T05:30:25.126+0000] {processor.py:157} INFO - Started process (PID=11276) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:30:25.127+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:30:25.129+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:30:25.128+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:30:25.827+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:30:25.866+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:30:25.865+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:30:25.913+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:30:25.912+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:30:25.956+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.833 seconds
+[2024-06-15T05:30:56.193+0000] {processor.py:157} INFO - Started process (PID=11396) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:30:56.195+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:30:56.196+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:30:56.196+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:30:56.796+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:30:56.822+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:30:56.822+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:30:56.851+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:30:56.851+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:30:56.879+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.690 seconds
+[2024-06-15T05:31:27.201+0000] {processor.py:157} INFO - Started process (PID=11515) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:31:27.203+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:31:27.203+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:31:27.203+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:31:27.842+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:31:27.866+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:31:27.865+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:31:27.896+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:31:27.896+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:31:27.920+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.722 seconds
+[2024-06-15T05:31:58.598+0000] {processor.py:157} INFO - Started process (PID=11637) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:31:58.599+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:31:58.600+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:31:58.600+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:31:59.162+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:31:59.187+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:31:59.186+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:31:59.216+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:31:59.216+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:31:59.244+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.650 seconds
+[2024-06-15T05:32:30.632+0000] {processor.py:157} INFO - Started process (PID=11761) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:32:30.634+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:32:30.635+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:32:30.634+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:32:31.277+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:32:31.310+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:32:31.309+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:32:31.355+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:32:31.354+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:32:31.388+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.761 seconds
+[2024-06-15T05:33:02.243+0000] {processor.py:157} INFO - Started process (PID=11881) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:33:02.244+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:33:02.245+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:33:02.245+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:33:02.941+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:33:02.969+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:33:02.968+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:33:03.001+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:33:03.001+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:33:03.030+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.791 seconds
+[2024-06-15T05:33:33.317+0000] {processor.py:157} INFO - Started process (PID=12002) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:33:33.319+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:33:33.321+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:33:33.321+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:33:34.099+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:33:34.130+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:33:34.130+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:33:34.163+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:33:34.162+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:33:34.196+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.884 seconds
+[2024-06-15T05:34:04.758+0000] {processor.py:157} INFO - Started process (PID=12121) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:34:04.759+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:34:04.761+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:34:04.760+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:34:05.386+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:34:05.411+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:34:05.410+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:34:05.439+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:34:05.439+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:34:05.466+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.713 seconds
+[2024-06-15T05:34:36.331+0000] {processor.py:157} INFO - Started process (PID=12241) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:34:36.332+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:34:36.333+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:34:36.333+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:34:36.994+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:34:37.024+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:34:37.023+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:34:37.051+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:34:37.051+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:34:37.081+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.755 seconds
+[2024-06-15T05:35:07.295+0000] {processor.py:157} INFO - Started process (PID=12358) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:35:07.297+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:35:07.298+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:35:07.297+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:35:07.951+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:35:07.978+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:35:07.977+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:35:08.006+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:35:08.005+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:35:08.034+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.743 seconds
+[2024-06-15T05:35:38.085+0000] {processor.py:157} INFO - Started process (PID=12478) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:35:38.087+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:35:38.088+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:35:38.088+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:35:38.684+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:35:38.723+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:35:38.721+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:35:38.781+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:35:38.780+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:35:38.820+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.739 seconds
+[2024-06-15T05:36:09.898+0000] {processor.py:157} INFO - Started process (PID=12598) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:36:09.900+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:36:09.901+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:36:09.901+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:36:11.152+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:36:11.211+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:36:11.210+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:36:11.278+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:36:11.278+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:36:11.338+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 1.447 seconds
+[2024-06-15T05:36:41.635+0000] {processor.py:157} INFO - Started process (PID=12729) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:36:41.637+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:36:41.639+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:36:41.638+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:36:42.359+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:36:42.388+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:36:42.387+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:36:42.413+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:36:42.413+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:36:42.448+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.817 seconds
+[2024-06-15T05:37:13.100+0000] {processor.py:157} INFO - Started process (PID=12849) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:37:13.101+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:37:13.102+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:37:13.102+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:37:13.855+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:37:13.901+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:37:13.899+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:37:13.946+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:37:13.946+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:37:13.979+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.884 seconds
+[2024-06-15T05:37:44.574+0000] {processor.py:157} INFO - Started process (PID=12969) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:37:44.575+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:37:44.576+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:37:44.576+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:37:45.142+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:37:45.167+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:37:45.167+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:37:45.196+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:37:45.196+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:37:45.222+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.652 seconds
+[2024-06-15T05:38:16.028+0000] {processor.py:157} INFO - Started process (PID=13089) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:38:16.030+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:38:16.031+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:38:16.030+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:38:16.704+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:38:16.733+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:38:16.733+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:38:16.764+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:38:16.764+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:38:16.792+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.768 seconds
+[2024-06-15T05:38:47.014+0000] {processor.py:157} INFO - Started process (PID=13211) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:38:47.015+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:38:47.016+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:38:47.016+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:38:47.640+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:38:47.666+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:38:47.665+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:38:47.698+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:38:47.698+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:38:47.727+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.717 seconds
+[2024-06-15T05:39:17.959+0000] {processor.py:157} INFO - Started process (PID=13330) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:39:17.961+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:39:17.962+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:39:17.961+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:39:18.748+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:39:18.778+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:39:18.777+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:39:18.810+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:39:18.809+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:39:18.843+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.889 seconds
+[2024-06-15T05:39:48.886+0000] {processor.py:157} INFO - Started process (PID=13454) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:39:48.887+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:39:48.888+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:39:48.888+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:39:49.549+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:39:49.581+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:39:49.580+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:39:49.620+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:39:49.620+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:39:49.653+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.772 seconds
+[2024-06-15T05:40:20.102+0000] {processor.py:157} INFO - Started process (PID=13565) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:40:20.104+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:40:20.107+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:40:20.106+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:40:20.924+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:40:20.949+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:40:20.948+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:40:20.977+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:40:20.977+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:40:21.003+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.908 seconds
+[2024-06-15T05:40:54.538+0000] {processor.py:157} INFO - Started process (PID=13686) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:40:54.543+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:40:54.547+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:40:54.546+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:40:56.590+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:40:56.688+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:40:56.685+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:40:56.811+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:40:56.810+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:40:56.906+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 2.382 seconds
+[2024-06-15T05:41:28.736+0000] {processor.py:157} INFO - Started process (PID=13810) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:41:28.741+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:41:28.744+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:41:28.743+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:41:31.573+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:41:31.693+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:41:31.690+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:41:31.818+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:41:31.817+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:41:31.921+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 3.201 seconds
+[2024-06-15T05:42:02.607+0000] {processor.py:157} INFO - Started process (PID=13935) to work on /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:42:02.612+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test_redshift_real.py for tasks to queue
+[2024-06-15T05:42:02.613+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:42:02.613+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:42:03.209+0000] {processor.py:836} INFO - DAG(s) dict_keys(['api_to_s3_to_redshift']) retrieved from /opt/airflow/dags/test_redshift_real.py
+[2024-06-15T05:42:03.234+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:42:03.233+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-06-15T05:42:03.259+0000] {logging_mixin.py:150} INFO - [2024-06-15T05:42:03.259+0000] {dag.py:3508} INFO - Setting next_dagrun for api_to_s3_to_redshift to 2024-06-15T04:00:00+00:00, run_after=2024-06-15T05:00:00+00:00
+[2024-06-15T05:42:03.285+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_redshift_real.py took 0.685 seconds

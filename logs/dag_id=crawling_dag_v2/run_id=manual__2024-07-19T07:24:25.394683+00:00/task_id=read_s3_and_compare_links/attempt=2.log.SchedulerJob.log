@@ -1,0 +1,1 @@
+[2024-07-20T04:38:38.695+0000] {scheduler_job_runner.py:781} ERROR - Executor reports task instance <TaskInstance: crawling_dag_v2.read_s3_and_compare_links manual__2024-07-19T07:24:25.394683+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?

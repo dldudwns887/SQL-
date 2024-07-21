@@ -1,0 +1,46 @@
+[2024-06-16T06:23:38.526+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dust_data_pipeline.ETL.populate_office_table scheduled__2024-06-16T05:00:00+00:00 [queued]>
+[2024-06-16T06:23:38.541+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dust_data_pipeline.ETL.populate_office_table scheduled__2024-06-16T05:00:00+00:00 [queued]>
+[2024-06-16T06:23:38.541+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2024-06-16T06:23:38.566+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): ETL.populate_office_table> on 2024-06-16 05:00:00+00:00
+[2024-06-16T06:23:38.582+0000] {standard_task_runner.py:57} INFO - Started process 202 to run task
+[2024-06-16T06:23:38.618+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'dust_data_pipeline', 'ETL.populate_office_table', 'scheduled__2024-06-16T05:00:00+00:00', '--job-id', '310', '--raw', '--subdir', 'DAGS_FOLDER/test_redshift_real_v3.py', '--cfg-path', '/tmp/tmpi34dgf5d']
+[2024-06-16T06:23:38.619+0000] {standard_task_runner.py:85} INFO - Job 310: Subtask ETL.populate_office_table
+[2024-06-16T06:23:38.795+0000] {task_command.py:410} INFO - Running <TaskInstance: dust_data_pipeline.ETL.populate_office_table scheduled__2024-06-16T05:00:00+00:00 [running]> on host bbfd9dfd7368
+[2024-06-16T06:23:38.986+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dust_data_pipeline' AIRFLOW_CTX_TASK_ID='ETL.populate_office_table' AIRFLOW_CTX_EXECUTION_DATE='2024-06-16T05:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-06-16T05:00:00+00:00'
+[2024-06-16T06:23:39.000+0000] {base.py:73} INFO - Using connection ID 'redshift_test_dev' for task execution.
+[2024-06-16T06:23:39.349+0000] {sql.py:375} INFO - Running statement: 
+    DROP TABLE IF EXISTS yusuyeon678.group_by_office;
+    CREATE TABLE yusuyeon678.group_by_office (
+        date TIMESTAMP NOT NULL,
+        office_code INT NOT NULL,
+        office_name VARCHAR(20) NOT NULL,
+        dust FLOAT NOT NULL,
+        ultradust FLOAT NOT NULL,
+        O3 FLOAT NOT NULL,
+        NO2 FLOAT NOT NULL,
+        CO FLOAT NOT NULL,
+        SO2 FLOAT NOT NULL,
+        CONSTRAINT group_by_office_pk PRIMARY KEY (date, office_code)
+    );
+    , parameters: None
+[2024-06-16T06:23:39.761+0000] {base.py:73} INFO - Using connection ID 'redshift_test_dev' for task execution.
+[2024-06-16T06:23:40.267+0000] {sql.py:375} INFO - Running statement: 
+    INSERT INTO yusuyeon678.group_by_office (date, office_code, office_name, dust, ultradust, O3, NO2, CO, SO2)
+    SELECT
+        date,
+        office_code,
+        office_name,
+        ROUND(AVG(dust), 2) AS dust,
+        ROUND(AVG(ultradust), 2) AS ultradust,
+        ROUND(AVG(o3), 2) AS o3,
+        ROUND(AVG(no2), 2) AS no2,
+        ROUND(AVG(co), 2) AS co,
+        ROUND(AVG(so2), 3) AS so2
+    FROM yusuyeon678.raw_data
+    GROUP BY date, office_code, office_name;
+    , parameters: None
+[2024-06-16T06:23:40.647+0000] {sql.py:384} INFO - Rows affected: 425
+[2024-06-16T06:23:40.811+0000] {python.py:183} INFO - Done. Returned value was: None
+[2024-06-16T06:23:40.828+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=dust_data_pipeline, task_id=ETL.populate_office_table, execution_date=20240616T050000, start_date=20240616T062338, end_date=20240616T062340
+[2024-06-16T06:23:40.878+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-06-16T06:23:40.918+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,19 @@
+[2024-07-19T08:02:30.422+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: crawling_dag_v2.read_s3_and_compare_links manual__2024-07-19T08:02:28.132053+00:00 [queued]>
+[2024-07-19T08:02:30.435+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: crawling_dag_v2.read_s3_and_compare_links manual__2024-07-19T08:02:28.132053+00:00 [queued]>
+[2024-07-19T08:02:30.436+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-07-19T08:02:30.458+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): read_s3_and_compare_links> on 2024-07-19 08:02:28.132053+00:00
+[2024-07-19T08:02:30.467+0000] {standard_task_runner.py:60} INFO - Started process 788 to run task
+[2024-07-19T08:02:30.473+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'crawling_dag_v2', 'read_s3_and_compare_links', 'manual__2024-07-19T08:02:28.132053+00:00', '--job-id', '455', '--raw', '--subdir', 'DAGS_FOLDER/musinsa_dag.py', '--cfg-path', '/tmp/tmpqyq_n5ra']
+[2024-07-19T08:02:30.477+0000] {standard_task_runner.py:88} INFO - Job 455: Subtask read_s3_and_compare_links
+[2024-07-19T08:02:30.542+0000] {task_command.py:423} INFO - Running <TaskInstance: crawling_dag_v2.read_s3_and_compare_links manual__2024-07-19T08:02:28.132053+00:00 [running]> on host 9a455ef6c02c
+[2024-07-19T08:02:30.638+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='crawling_dag_v2' AIRFLOW_CTX_TASK_ID='read_s3_and_compare_links' AIRFLOW_CTX_EXECUTION_DATE='2024-07-19T08:02:28.132053+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-07-19T08:02:28.132053+00:00'
+[2024-07-19T08:02:30.651+0000] {base.py:83} INFO - Using connection ID 'aws_s3' for task execution.
+[2024-07-19T08:02:30.651+0000] {connection_wrapper.py:384} INFO - AWS Connection (conn_id='aws_s3', conn_type='aws') credentials retrieved from login and password.
+[2024-07-19T08:03:05.100+0000] {logging_mixin.py:188} INFO - Current number of unique href links: 43
+[2024-07-19T08:03:29.583+0000] {logging_mixin.py:188} INFO - Current number of unique href links: 86
+[2024-07-19T08:03:54.189+0000] {logging_mixin.py:188} INFO - Current number of unique href links: 129
+[2024-07-19T08:03:54.283+0000] {logging_mixin.py:188} INFO - No new links found.
+[2024-07-19T08:03:54.290+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-07-19T08:03:54.310+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=crawling_dag_v2, task_id=read_s3_and_compare_links, execution_date=20240719T080228, start_date=20240719T080230, end_date=20240719T080354
+[2024-07-19T08:03:54.356+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-07-19T08:03:54.391+0000] {taskinstance.py:3312} INFO - 1 downstream tasks scheduled from follow-on schedule check

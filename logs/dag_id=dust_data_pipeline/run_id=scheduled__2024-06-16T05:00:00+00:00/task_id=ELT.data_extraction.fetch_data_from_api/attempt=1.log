@@ -1,0 +1,13 @@
+[2024-06-16T06:23:16.772+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dust_data_pipeline.ELT.data_extraction.fetch_data_from_api scheduled__2024-06-16T05:00:00+00:00 [queued]>
+[2024-06-16T06:23:16.783+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dust_data_pipeline.ELT.data_extraction.fetch_data_from_api scheduled__2024-06-16T05:00:00+00:00 [queued]>
+[2024-06-16T06:23:16.784+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2024-06-16T06:23:16.804+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): ELT.data_extraction.fetch_data_from_api> on 2024-06-16 05:00:00+00:00
+[2024-06-16T06:23:16.810+0000] {standard_task_runner.py:57} INFO - Started process 164 to run task
+[2024-06-16T06:23:16.814+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'dust_data_pipeline', 'ELT.data_extraction.fetch_data_from_api', 'scheduled__2024-06-16T05:00:00+00:00', '--job-id', '303', '--raw', '--subdir', 'DAGS_FOLDER/test_redshift_real_v3.py', '--cfg-path', '/tmp/tmpfckzx5d_']
+[2024-06-16T06:23:16.815+0000] {standard_task_runner.py:85} INFO - Job 303: Subtask ELT.data_extraction.fetch_data_from_api
+[2024-06-16T06:23:16.875+0000] {task_command.py:410} INFO - Running <TaskInstance: dust_data_pipeline.ELT.data_extraction.fetch_data_from_api scheduled__2024-06-16T05:00:00+00:00 [running]> on host bbfd9dfd7368
+[2024-06-16T06:23:16.997+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dust_data_pipeline' AIRFLOW_CTX_TASK_ID='ELT.data_extraction.fetch_data_from_api' AIRFLOW_CTX_EXECUTION_DATE='2024-06-16T05:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-06-16T05:00:00+00:00'
+[2024-06-16T06:23:17.355+0000] {python.py:183} INFO - Done. Returned value was: /opt/***/api_raw_data.csv
+[2024-06-16T06:23:17.385+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=dust_data_pipeline, task_id=ELT.data_extraction.fetch_data_from_api, execution_date=20240616T050000, start_date=20240616T062316, end_date=20240616T062317
+[2024-06-16T06:23:17.428+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-06-16T06:23:17.463+0000] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check

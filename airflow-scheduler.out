@@ -1,0 +1,18 @@
+[[34m2024-07-20T14:09:51.580+0900[0m] {[34mtask_context_logger.py:[0m63} INFO[0m - Task context logging is enabled[0m
+[[34m2024-07-20T14:09:51.581+0900[0m] {[34mexecutor_loader.py:[0m235} INFO[0m - Loaded executor: SequentialExecutor[0m
+[[34m2024-07-20T14:09:51.684+0900[0m] {[34mscheduler_job_runner.py:[0m796} INFO[0m - Starting the scheduler[0m
+[[34m2024-07-20T14:09:51.685+0900[0m] {[34mscheduler_job_runner.py:[0m803} INFO[0m - Processing each file at most -1 times[0m
+[[34m2024-07-20T14:09:51.694+0900[0m] {[34mmanager.py:[0m170} INFO[0m - Launched DagFileProcessorManager with pid: 12446[0m
+[[34m2024-07-20T14:09:51.696+0900[0m] {[34mscheduler_job_runner.py:[0m1595} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-07-20T14:09:51.702+0900[0m] {[34msettings.py:[0m60} INFO[0m - Configured default timezone UTC[0m
+[2024-07-20T14:09:51.748+0900] {manager.py:393} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
+[[34m2024-07-20T14:14:51.995+0900[0m] {[34mscheduler_job_runner.py:[0m1595} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-07-20T14:19:52.126+0900[0m] {[34mscheduler_job_runner.py:[0m1595} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[2024-07-20T14:21:58.148+0900] {manager.py:524} INFO - DAG crawling_dag_v3 is missing and will be deactivated.
+[2024-07-20T14:21:58.155+0900] {manager.py:536} INFO - Deactivated 1 DAGs which are no longer present in file.
+[2024-07-20T14:21:58.185+0900] {manager.py:540} INFO - Deleted DAG crawling_dag_v3 in serialized_dag table
+[[34m2024-07-20T14:24:52.733+0900[0m] {[34mscheduler_job_runner.py:[0m1595} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-07-20T14:29:52.807+0900[0m] {[34mscheduler_job_runner.py:[0m1595} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-07-20T14:34:53.022+0900[0m] {[34mscheduler_job_runner.py:[0m1595} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-07-20T14:39:54.182+0900[0m] {[34mscheduler_job_runner.py:[0m1595} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-07-20T14:44:54.808+0900[0m] {[34mscheduler_job_runner.py:[0m1595} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m

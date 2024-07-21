@@ -1,0 +1,52 @@
+[2024-07-17T14:55:44.210+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: musinsa_dag.read_s3_and_print_head manual__2024-07-17T14:55:40.810583+00:00 [queued]>
+[2024-07-17T14:55:44.220+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: musinsa_dag.read_s3_and_print_head manual__2024-07-17T14:55:40.810583+00:00 [queued]>
+[2024-07-17T14:55:44.221+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-07-17T14:55:44.239+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): read_s3_and_print_head> on 2024-07-17 14:55:40.810583+00:00
+[2024-07-17T14:55:44.245+0000] {standard_task_runner.py:60} INFO - Started process 253 to run task
+[2024-07-17T14:55:44.249+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'musinsa_dag', 'read_s3_and_print_head', 'manual__2024-07-17T14:55:40.810583+00:00', '--job-id', '340', '--raw', '--subdir', 'DAGS_FOLDER/musinsa_dag.py', '--cfg-path', '/tmp/tmphxaelkib']
+[2024-07-17T14:55:44.251+0000] {standard_task_runner.py:88} INFO - Job 340: Subtask read_s3_and_print_head
+[2024-07-17T14:55:44.305+0000] {task_command.py:423} INFO - Running <TaskInstance: musinsa_dag.read_s3_and_print_head manual__2024-07-17T14:55:40.810583+00:00 [running]> on host 56d37e8dcfcc
+[2024-07-17T14:55:44.398+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='musinsa_dag' AIRFLOW_CTX_TASK_ID='read_s3_and_print_head' AIRFLOW_CTX_EXECUTION_DATE='2024-07-17T14:55:40.810583+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-07-17T14:55:40.810583+00:00'
+[2024-07-17T14:55:44.412+0000] {base_aws.py:581} WARNING - Unable to find AWS Connection ID 'my_aws_conn', switching to empty.
+[2024-07-17T14:55:44.412+0000] {base_aws.py:161} INFO - No connection ID provided. Fallback on boto3 credential strategy (region_name=None). See: https://boto3.amazonaws.com/v1/documentation/api/latest/guide/configuration.html
+[2024-07-17T14:55:45.164+0000] {taskinstance.py:2731} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/code_test/airflow_product_review.py", line 12, in read_s3_and_print_head
+    obj = s3_client.get_object(Bucket=bucket_name, Key=key)
+  File "/home/airflow/.local/lib/python3.8/site-packages/botocore/client.py", line 553, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/botocore/client.py", line 989, in _make_api_call
+    http, parsed_response = self._make_request(
+  File "/home/airflow/.local/lib/python3.8/site-packages/botocore/client.py", line 1015, in _make_request
+    return self._endpoint.make_request(operation_model, request_dict)
+  File "/home/airflow/.local/lib/python3.8/site-packages/botocore/endpoint.py", line 119, in make_request
+    return self._send_request(request_dict, operation_model)
+  File "/home/airflow/.local/lib/python3.8/site-packages/botocore/endpoint.py", line 198, in _send_request
+    request = self.create_request(request_dict, operation_model)
+  File "/home/airflow/.local/lib/python3.8/site-packages/botocore/endpoint.py", line 134, in create_request
+    self._event_emitter.emit(
+  File "/home/airflow/.local/lib/python3.8/site-packages/botocore/hooks.py", line 412, in emit
+    return self._emitter.emit(aliased_event_name, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/botocore/hooks.py", line 256, in emit
+    return self._emit(event_name, kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/botocore/hooks.py", line 239, in _emit
+    response = handler(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/botocore/signers.py", line 105, in handler
+    return self.sign(operation_name, request)
+  File "/home/airflow/.local/lib/python3.8/site-packages/botocore/signers.py", line 195, in sign
+    auth.add_auth(request)
+  File "/home/airflow/.local/lib/python3.8/site-packages/botocore/auth.py", line 418, in add_auth
+    raise NoCredentialsError()
+botocore.exceptions.NoCredentialsError: Unable to locate credentials
+[2024-07-17T14:55:45.173+0000] {taskinstance.py:1149} INFO - Marking task as UP_FOR_RETRY. dag_id=musinsa_dag, task_id=read_s3_and_print_head, execution_date=20240717T145540, start_date=20240717T145544, end_date=20240717T145545
+[2024-07-17T14:55:45.192+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 340 for task read_s3_and_print_head (Unable to locate credentials; 253)
+[2024-07-17T14:55:45.228+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-07-17T14:55:45.243+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

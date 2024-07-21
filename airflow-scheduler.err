@@ -1,0 +1,5 @@
+[2024-07-20 14:09:51 +0900] [12443] [INFO] Starting gunicorn 22.0.0
+[2024-07-20 14:09:51 +0900] [12443] [INFO] Listening at: http://[::]:8793 (12443)
+[2024-07-20 14:09:51 +0900] [12443] [INFO] Using worker: sync
+[2024-07-20 14:09:51 +0900] [12444] [INFO] Booting worker with pid: 12444
+[2024-07-20 14:09:51 +0900] [12445] [INFO] Booting worker with pid: 12445

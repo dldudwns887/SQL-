@@ -1,0 +1,16 @@
+[2024-06-16T04:20:47.014+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dust_data_pipeline.delete_s3_files scheduled__2024-06-16T03:00:00+00:00 [queued]>
+[2024-06-16T04:20:47.041+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dust_data_pipeline.delete_s3_files scheduled__2024-06-16T03:00:00+00:00 [queued]>
+[2024-06-16T04:20:47.042+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2024-06-16T04:20:47.077+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): delete_s3_files> on 2024-06-16 03:00:00+00:00
+[2024-06-16T04:20:47.106+0000] {standard_task_runner.py:57} INFO - Started process 120 to run task
+[2024-06-16T04:20:47.168+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'dust_data_pipeline', 'delete_s3_files', 'scheduled__2024-06-16T03:00:00+00:00', '--job-id', '285', '--raw', '--subdir', 'DAGS_FOLDER/test_redshift_real_v3.py', '--cfg-path', '/tmp/tmp6794e1g9']
+[2024-06-16T04:20:47.171+0000] {standard_task_runner.py:85} INFO - Job 285: Subtask delete_s3_files
+[2024-06-16T04:20:47.339+0000] {task_command.py:410} INFO - Running <TaskInstance: dust_data_pipeline.delete_s3_files scheduled__2024-06-16T03:00:00+00:00 [running]> on host 2c7bc140ebc2
+[2024-06-16T04:20:47.491+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dust_data_pipeline' AIRFLOW_CTX_TASK_ID='delete_s3_files' AIRFLOW_CTX_EXECUTION_DATE='2024-06-16T03:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-06-16T03:00:00+00:00'
+[2024-06-16T04:20:47.508+0000] {base.py:73} INFO - Using connection ID 'aws_s3' for task execution.
+[2024-06-16T04:20:47.509+0000] {connection_wrapper.py:337} INFO - AWS Connection (conn_id='aws_s3', conn_type='aws') credentials retrieved from login and password.
+[2024-06-16T04:20:48.773+0000] {s3.py:951} INFO - Deleted: ['dataSource/api_raw_data.csv']
+[2024-06-16T04:20:48.776+0000] {python.py:183} INFO - Done. Returned value was: None
+[2024-06-16T04:20:48.799+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=dust_data_pipeline, task_id=delete_s3_files, execution_date=20240616T030000, start_date=20240616T042047, end_date=20240616T042048
+[2024-06-16T04:20:48.879+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-06-16T04:20:48.934+0000] {taskinstance.py:2653} INFO - 4 downstream tasks scheduled from follow-on schedule check

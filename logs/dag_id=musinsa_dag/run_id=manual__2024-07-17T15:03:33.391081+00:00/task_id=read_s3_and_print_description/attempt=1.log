@@ -1,0 +1,21 @@
+[2024-07-17T15:03:35.126+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: musinsa_dag.read_s3_and_print_description manual__2024-07-17T15:03:33.391081+00:00 [queued]>
+[2024-07-17T15:03:35.136+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: musinsa_dag.read_s3_and_print_description manual__2024-07-17T15:03:33.391081+00:00 [queued]>
+[2024-07-17T15:03:35.137+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-07-17T15:03:35.153+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): read_s3_and_print_description> on 2024-07-17 15:03:33.391081+00:00
+[2024-07-17T15:03:35.159+0000] {standard_task_runner.py:60} INFO - Started process 381 to run task
+[2024-07-17T15:03:35.163+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'musinsa_dag', 'read_s3_and_print_description', 'manual__2024-07-17T15:03:33.391081+00:00', '--job-id', '342', '--raw', '--subdir', 'DAGS_FOLDER/musinsa_dag.py', '--cfg-path', '/tmp/tmp1tmglhd7']
+[2024-07-17T15:03:35.165+0000] {standard_task_runner.py:88} INFO - Job 342: Subtask read_s3_and_print_description
+[2024-07-17T15:03:35.225+0000] {task_command.py:423} INFO - Running <TaskInstance: musinsa_dag.read_s3_and_print_description manual__2024-07-17T15:03:33.391081+00:00 [running]> on host 56d37e8dcfcc
+[2024-07-17T15:03:35.310+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='musinsa_dag' AIRFLOW_CTX_TASK_ID='read_s3_and_print_description' AIRFLOW_CTX_EXECUTION_DATE='2024-07-17T15:03:33.391081+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-07-17T15:03:33.391081+00:00'
+[2024-07-17T15:03:35.323+0000] {base.py:83} INFO - Using connection ID 'aws_s3' for task execution.
+[2024-07-17T15:03:35.324+0000] {connection_wrapper.py:384} INFO - AWS Connection (conn_id='aws_s3', conn_type='aws') credentials retrieved from login and password.
+[2024-07-17T15:03:36.103+0000] {logging_mixin.py:188} INFO - 0    https://www.musinsa.com/app/goods/1642887
+1    https://www.musinsa.com/app/goods/1031260
+2    https://www.musinsa.com/app/goods/1139099
+3    https://www.musinsa.com/app/goods/2226766
+4    https://www.musinsa.com/app/goods/1944612
+Name: description, dtype: object
+[2024-07-17T15:03:36.105+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-07-17T15:03:36.114+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=musinsa_dag, task_id=read_s3_and_print_description, execution_date=20240717T150333, start_date=20240717T150335, end_date=20240717T150336
+[2024-07-17T15:03:36.143+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-07-17T15:03:36.163+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check
